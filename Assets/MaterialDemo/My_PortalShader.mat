@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_PortalShader
-  m_Shader: {fileID: 4800000, guid: 7f92fa8b030eb3a4891d71f4f8512bac, type: 3}
+  m_Name: My_PortalShader
+  m_Shader: {fileID: 4800000, guid: 9c98a9db733b6984684c1d8adb7a239f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -25,11 +25,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AnotherWorldPortalColor:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 4.51, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AnotherWorldTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 40432521e96b88040932b24f77996fdc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PortalColors:
@@ -50,16 +50,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DistortionScale: 1
+    - _DistortionScale: 1.5
     - _DistortionSize: 3
     - _DistortionSpeed: 0.05
-    - _LightingBorderSize: 0.03
+    - _LightingBorderSize: 0.0311
     - _NoiseScale: 0.1
     - _NoiseSpeed: 0.005
     - _PortalColorsWidthScale: 0.0625
     - _PortalFactor: 0
     - _PortalFrameDistortionFactor: 5
     - _PortalOpening: 1
-    - _WorldColorFactor: 0.7
+    - _WorldColorFactor: 1
     m_Colors: []
   m_BuildTextureStacks: []
