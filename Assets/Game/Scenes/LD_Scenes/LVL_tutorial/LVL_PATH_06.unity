@@ -709,6 +709,11 @@ PrefabInstance:
       propertyPath: scene
       value: LVL_PATH_07
       objectReference: {fileID: 0}
+    - target: {fileID: 145360440301363746, guid: 84abab8cf84190243b77da89d494331b,
+        type: 3}
+      propertyPath: orthographic size
+      value: 95
+      objectReference: {fileID: 0}
     - target: {fileID: 2463684442174907702, guid: 84abab8cf84190243b77da89d494331b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -763,6 +768,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SceneStarterPack
+      objectReference: {fileID: 0}
+    - target: {fileID: 6393547658200893211, guid: 84abab8cf84190243b77da89d494331b,
+        type: 3}
+      propertyPath: nextScene
+      value: LVL_PATH_07
       objectReference: {fileID: 0}
     - target: {fileID: 6754514075168630696, guid: 84abab8cf84190243b77da89d494331b,
         type: 3}

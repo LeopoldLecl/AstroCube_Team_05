@@ -7,6 +7,11 @@ public class SceneChangeButton : MonoBehaviour
 {
     [SerializeField] string _sceneName;
 
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
     public void ChangeScene()
     {
         SceneManager.LoadScene(_sceneName);

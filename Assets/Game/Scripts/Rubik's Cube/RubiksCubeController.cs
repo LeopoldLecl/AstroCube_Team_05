@@ -1,4 +1,3 @@
-using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -38,6 +37,7 @@ public class RubiksCubeController : MonoBehaviour
 
     public bool CameraPlayerReversed { get => _cameraPlayerReversed; set => _cameraPlayerReversed = value; }
     public bool ShowStripLayerToPlayer { get => _ShowStripLayerToPlayer; set => _ShowStripLayerToPlayer = value; }
+    public RubiksMovement ControlledScript { get => _controlledScript;}
 
     #endregion
 
@@ -119,7 +119,6 @@ public class RubiksCubeController : MonoBehaviour
     {
 
         _selectedSlice = (SliceAxis)(((int)_selectedSlice + (isLeft ? -1 : +1) + 3) % 3);
-        print((int)_selectedSlice);
         switch (_selectedSlice)
         {
             case SliceAxis.X:

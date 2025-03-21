@@ -47,7 +47,7 @@
                     "id": "78276d6b-79fd-420a-8476-517d456cada6",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Hold",
                     "initialStateCheck": false
                 },
                 {
@@ -614,6 +614,12 @@
                     "isPartOfComposite": true
                 }
             ]
+        },
+        {
+            "name": "LockPlayerMov",
+            "id": "36e24ca8-43f0-4e9e-98b3-81b50699bd57",
+            "actions": [],
+            "bindings": []
         }
     ],
     "controlSchemes": [

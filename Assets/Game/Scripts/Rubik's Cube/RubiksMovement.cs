@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using RubiksStatic;
 using System.Linq;
-using Unity.VisualScripting;
 
 public class RubiksMovement : MonoBehaviour
 {
@@ -29,15 +28,18 @@ public class RubiksMovement : MonoBehaviour
     #region Accessor
 
     public bool IsRotating { get => _isRotating; }
+    public bool IsReversing { get => _isReversing; }
     public bool IsLockXAxis { get => _isLockXAxis; }
     public bool IsLockYAxis { get => _isLockYAxis; }
     public bool IsLockZAxis { get => _isLockZAxis; }
+    internal List<RubiksMove> Moves { get => _moves; }
 
     #endregion
 
     private void Awake()
     {
         EventManager.OnPlayerReset += ReverseMoves;
+        EventManager.OnPlayerResetOnce += UndoMove;
 
         foreach (Transform t in transform.parent)
         {
@@ -49,6 +51,8 @@ public class RubiksMovement : MonoBehaviour
     void OnDisable()
     {
         EventManager.OnPlayerReset -= ReverseMoves;
+        EventManager.OnPlayerResetOnce -= UndoMove;
+
     }
     IEnumerator Scramble()
     {
@@ -82,6 +86,28 @@ public class RubiksMovement : MonoBehaviour
             }
             yield return null;
         }
+        yield return new WaitForSeconds(time + .05f);
+        _isReversing = false;
+    }
+
+    void UndoMove(float time)
+    {
+        if (IsReversing) return;
+        StartCoroutine(ReverseOneMoves(time));
+    }
+    IEnumerator ReverseOneMoves(float time)
+    {
+        while (_isRotating)
+            yield return null;
+
+        if (Moves.Count > 0) yield return null;
+            
+        _isReversing = true;
+        RubiksMove m = Moves[Moves.Count - 1];
+
+        StartCoroutine(RotateAxisCoroutine(m.axis, m.cube, !m.clockWise, time, m.orientation));
+        Moves.RemoveAt(Moves.Count - 1);
+
         yield return new WaitForSeconds(time + .05f);
         _isReversing = false;
     }
@@ -143,7 +169,7 @@ public class RubiksMovement : MonoBehaviour
                           (rotationAxis == Vector3.forward && Mathf.Abs(localBlockPos.z - localRefPos.z) < 0.5f)
                        || (rotationAxis == Vector3.up && Mathf.Abs(localBlockPos.y - localRefPos.y) < 0.5f)
                        || (rotationAxis == Vector3.right && Mathf.Abs(localBlockPos.x - localRefPos.x) < 0.5f);
-            
+
             if (isOnSamePlane)
             {
                 if (block.name == "Corner") isMiddle = false;
@@ -152,7 +178,7 @@ public class RubiksMovement : MonoBehaviour
             }
         }
 
-        if(isMiddle) middleGameObject.parent = axis;
+        if (isMiddle) middleGameObject.parent = axis;
 
 
         foreach (int i in blockIndexs)
@@ -232,6 +258,7 @@ public class RubiksMovement : MonoBehaviour
             _moves.Add(move);
         }
     }
+
     RubiksMove CreateRandomMove()
     {
         int ran = Random.Range(0, _allBlocks.Count - 1);

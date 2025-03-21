@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class DetectNewParent : MonoBehaviour
@@ -19,9 +20,17 @@ public class DetectNewParent : MonoBehaviour
     public bool DoGravityRotation { get => _doGravityRotation; set => _doGravityRotation = value; }
     public bool DoGroundRotation { get => _doGroundRotation; set => _doGroundRotation = value; }
 
-    private void Start()
+    private void Awake()
     {
+        EventManager.OnPlayerReset += DisableParentChangerfor;
+        EventManager.OnPlayerResetOnce += DisableParentChangerfor;
+
         currentRotationDir = transform.up;
+    }
+    private void OnDisable()
+    {
+        EventManager.OnPlayerReset -= DisableParentChangerfor;
+        EventManager.OnPlayerResetOnce -= DisableParentChangerfor;
     }
     private void Update()
     {
@@ -34,12 +43,9 @@ public class DetectNewParent : MonoBehaviour
 
                 //if (OldTilePlayerPos) OldTilePlayerPos.SetIsTileLock(false);
 
-
-
                 OldTilePlayerPos = _raycastInfo.transform.GetComponentInParent<SelectionCube>();
                 if (OldTilePlayerPos)
                 {
-                    //print(OldTilePlayerPos);
                     transform.SetParent(OldTilePlayerPos.transform, true);
                 }
                 //if(!OldTilePlayerPos) _raycastInfo.transform.parent.parent.TryGetComponent(out OldTilePlayerPos);
@@ -54,8 +60,16 @@ public class DetectNewParent : MonoBehaviour
 
     }
 
-
-
+    public void DisableParentChangerfor(float duration)
+    {
+        StartCoroutine(DisableParentChanger(duration));
+    }
+    IEnumerator DisableParentChanger(float duration)
+    {
+        DoGroundRotation = false;
+        yield return new WaitForSeconds(duration);
+        DoGroundRotation = true;
+    }
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
         if (!_doGravityRotation) return;

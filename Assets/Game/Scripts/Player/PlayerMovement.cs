@@ -79,6 +79,7 @@ public class PlayerMovement : MonoBehaviour
 
         defaultSpeed = _gameSettings.PlayerMoveSpeed;
         _currentMoveSpeed = defaultSpeed;
+
     }
 
     // Update is called once per frame
@@ -151,8 +152,7 @@ public class PlayerMovement : MonoBehaviour
 
         // apply calculated
         _controller.Move(_horizontalVelocity * 
-                         (_crouchInput ? _currentMoveSpeed : _currentMoveSpeed / _gameSettings.CrouchSpeed) * 
-                         Time.deltaTime);
+                         (_crouchInput ? _currentMoveSpeed : _currentMoveSpeed / _gameSettings.CrouchSpeed) * Time.deltaTime);
         _controller.Move(_verticalVelocity * Time.deltaTime);
 
         _ApplyCameraHeight(newCamPos.y);

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GameSettings
   m_EditorClassIdentifier: 
   cameraSensibilityJoystick: 1000
-  cameraSensibilityMouse: 250
+  cameraSensibilityMouse: 100
   _playerMoveSpeed: 4
   _gravity: -20
   _jumpHeight: 1
@@ -48,7 +48,6 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _FOV: 100
   _enableGravityRotation: 0
   _rubikscCubeAxisRotationDuration: 1
   _uiRubikscCubeRotationDuration: 1

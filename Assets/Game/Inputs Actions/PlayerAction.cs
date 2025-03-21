@@ -69,7 +69,7 @@ public partial class @PlayerAction: IInputActionCollection2, IDisposable
                     ""id"": ""78276d6b-79fd-420a-8476-517d456cada6"",
                     ""expectedControlType"": """",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Hold"",
                     ""initialStateCheck"": false
                 },
                 {
@@ -636,6 +636,12 @@ public partial class @PlayerAction: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 }
             ]
+        },
+        {
+            ""name"": ""LockPlayerMov"",
+            ""id"": ""36e24ca8-43f0-4e9e-98b3-81b50699bd57"",
+            ""actions"": [],
+            ""bindings"": []
         }
     ],
     ""controlSchemes"": [
@@ -720,6 +726,8 @@ public partial class @PlayerAction: IInputActionCollection2, IDisposable
         m_NoClip = asset.FindActionMap("NoClip", throwIfNotFound: true);
         m_NoClip_Movement = m_NoClip.FindAction("Movement", throwIfNotFound: true);
         m_NoClip_VerticalMovement = m_NoClip.FindAction("VerticalMovement", throwIfNotFound: true);
+        // LockPlayerMov
+        m_LockPlayerMov = asset.FindActionMap("LockPlayerMov", throwIfNotFound: true);
     }
 
     ~@PlayerAction()
@@ -727,6 +735,7 @@ public partial class @PlayerAction: IInputActionCollection2, IDisposable
         UnityEngine.Debug.Assert(!m_MainScheme.enabled, "This will cause a leak and performance issues, PlayerAction.MainScheme.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_PlayerMovement.enabled, "This will cause a leak and performance issues, PlayerAction.PlayerMovement.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_NoClip.enabled, "This will cause a leak and performance issues, PlayerAction.NoClip.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_LockPlayerMov.enabled, "This will cause a leak and performance issues, PlayerAction.LockPlayerMov.Disable() has not been called.");
     }
 
     public void Dispose()
@@ -1002,6 +1011,44 @@ public partial class @PlayerAction: IInputActionCollection2, IDisposable
         }
     }
     public NoClipActions @NoClip => new NoClipActions(this);
+
+    // LockPlayerMov
+    private readonly InputActionMap m_LockPlayerMov;
+    private List<ILockPlayerMovActions> m_LockPlayerMovActionsCallbackInterfaces = new List<ILockPlayerMovActions>();
+    public struct LockPlayerMovActions
+    {
+        private @PlayerAction m_Wrapper;
+        public LockPlayerMovActions(@PlayerAction wrapper) { m_Wrapper = wrapper; }
+        public InputActionMap Get() { return m_Wrapper.m_LockPlayerMov; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(LockPlayerMovActions set) { return set.Get(); }
+        public void AddCallbacks(ILockPlayerMovActions instance)
+        {
+            if (instance == null || m_Wrapper.m_LockPlayerMovActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_LockPlayerMovActionsCallbackInterfaces.Add(instance);
+        }
+
+        private void UnregisterCallbacks(ILockPlayerMovActions instance)
+        {
+        }
+
+        public void RemoveCallbacks(ILockPlayerMovActions instance)
+        {
+            if (m_Wrapper.m_LockPlayerMovActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(ILockPlayerMovActions instance)
+        {
+            foreach (var item in m_Wrapper.m_LockPlayerMovActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_LockPlayerMovActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public LockPlayerMovActions @LockPlayerMov => new LockPlayerMovActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -1068,5 +1115,8 @@ public partial class @PlayerAction: IInputActionCollection2, IDisposable
     {
         void OnMovement(InputAction.CallbackContext context);
         void OnVerticalMovement(InputAction.CallbackContext context);
+    }
+    public interface ILockPlayerMovActions
+    {
     }
 }
