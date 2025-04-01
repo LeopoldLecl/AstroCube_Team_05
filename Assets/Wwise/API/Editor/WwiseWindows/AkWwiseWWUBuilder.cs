@@ -528,7 +528,7 @@ public class AkWwiseWWUBuilder : UnityEditor.AssetPostprocessor
 			}
 			catch (System.Exception exception)
 			{
-				//UnityEngine.Debug.Log(exception);
+				UnityEngine.Debug.Log(exception);
 				_WwiseObjectsToRemove.Clear();
 				_WwiseObjectsToKeep.Clear();
 				return false;

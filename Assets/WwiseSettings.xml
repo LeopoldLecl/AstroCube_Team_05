@@ -10,8 +10,8 @@
     <LoadSoundEngineInEditMode>true</LoadSoundEngineInEditMode>
     <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
     <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
-    <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise2023.1.10.8659/Wwise.app</WwiseInstallationPathMac>
-    <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise2024.1.3.8749</WwiseInstallationPathWindows>
+    <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise2024.1.3.8749/Wwise.app</WwiseInstallationPathMac>
+    <WwiseInstallationPathWindows></WwiseInstallationPathWindows>
     <WwiseProjectPath>../../AstroCube_Team_05/AstroCube_Team_05_WwiseProject/AstroCube_Team_05_WwiseProject.wproj</WwiseProjectPath>
     <UseWaapi>true</UseWaapi>
     <WaapiPort>8080</WaapiPort>

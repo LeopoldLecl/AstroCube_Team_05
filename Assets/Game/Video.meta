@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Audio.meta
+guid: 6ca591a6828e10f4ba7be36d2da7b9df
+========
 guid: fcdcf5dd69cc4224f9bc7de872a0dc9e
+>>>>>>>> Dev:Assets/Game/Video.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

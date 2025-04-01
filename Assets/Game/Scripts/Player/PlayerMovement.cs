@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] bool _resetRotationWhenNoClip = false;
 
     [Header("WISE")]
-    [SerializeField] AK.Wwise.Event AKWiseEvent ;
+    [SerializeField] AK.Wwise.Event AKWiseEvent;
 
 
 
@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     float _currentMoveSpeed;
     Vector3 _verticalVelocity;
-    Vector3 _horizontalVelocity; 
+    Vector3 _horizontalVelocity;
     bool _isGrounded;
 
     float _defaultCameraHeight;
@@ -68,11 +68,15 @@ public class PlayerMovement : MonoBehaviour
     public float defaultSpeed { get; private set; }
 
 
+    private float _timerBeforeNextStep = 0;
+    public float _timerTNextStep = 1;
+
+
     void Start()
     {
         _gameSettings = GameManager.Instance.Settings;
         GetComponent<DetectNewParent>().DoGravityRotation = _gameSettings.EnableGravityRotation;
-        
+
         _defaultCameraHeight = _camera.transform.localPosition.y;
         _defaultControllerHeight = _controller.height;
         _defaultControllerCenter = _controller.center;
@@ -108,7 +112,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // movePlayer (walking around)
-        if (_isSlipping ) _pastHorizontalVelocity = _horizontalVelocity;
+        if (_isSlipping) _pastHorizontalVelocity = _horizontalVelocity;
         _horizontalVelocity = transform.right * _xInput + transform.forward * _zInput;
 
         if (_isSlipping)
@@ -127,7 +131,7 @@ public class PlayerMovement : MonoBehaviour
         {
             _verticalVelocity = transform.up * Mathf.Sqrt(_gameSettings.JumpHeight * -2f * _gameSettings.Gravity);
         }
-            _jumpInput = false;
+        _jumpInput = false;
 
         // crouch
         if (_crouchInput)
@@ -151,11 +155,31 @@ public class PlayerMovement : MonoBehaviour
         _horizontalVelocity += transform.up * _yInput;
 
         // apply calculated
-        _controller.Move(_horizontalVelocity * 
+        _controller.Move(_horizontalVelocity *
                          (_crouchInput ? _currentMoveSpeed : _currentMoveSpeed / _gameSettings.CrouchSpeed) * Time.deltaTime);
         _controller.Move(_verticalVelocity * Time.deltaTime);
 
         _ApplyCameraHeight(newCamPos.y);
+        ExecuteFootStep();
+        ;
+    }
+
+    void ExecuteFootStep()
+    {
+        if (_isWalking)
+        {
+            _timerBeforeNextStep += Time.deltaTime;
+        }
+        else
+        {
+            _timerBeforeNextStep = 0;
+        }
+
+        if (_timerBeforeNextStep >= _timerTNextStep)
+        {
+            _timerBeforeNextStep = 0;
+            AKWiseEvent.Post(gameObject);
+        }
     }
 
     #region Inputs
@@ -200,8 +224,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 _stopWalkingDuration = 0.0f;
                 _startWalkingDuration += Time.deltaTime;
-                newCameraHeight = Vector3.up * Mathf.Lerp(_camera.transform.localPosition.y, 
-                                                            currentDefaultHeight + _gameSettings.HeadBobbingCurve.Evaluate(0.0f) * _gameSettings.HeadBobbingAmount, 
+                newCameraHeight = Vector3.up * Mathf.Lerp(_camera.transform.localPosition.y,
+                                                            currentDefaultHeight + _gameSettings.HeadBobbingCurve.Evaluate(0.0f) * _gameSettings.HeadBobbingAmount,
                                                             _startWalkingDuration / _gameSettings.StartWalkingTransitionDuration);
             }
             else
@@ -213,12 +237,12 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             _walkingDuration = 0.0f;
-            if(_stopWalkingDuration <= _gameSettings.StopWalkingTransitionDuration)
+            if (_stopWalkingDuration <= _gameSettings.StopWalkingTransitionDuration)
             {
-                _startWalkingDuration = 0.0f; 
+                _startWalkingDuration = 0.0f;
                 _stopWalkingDuration += Time.deltaTime;
-                newCameraHeight = Vector3.up * Mathf.Lerp(_camera.transform.localPosition.y, 
-                                                            currentDefaultHeight, 
+                newCameraHeight = Vector3.up * Mathf.Lerp(_camera.transform.localPosition.y,
+                                                            currentDefaultHeight,
                                                             _stopWalkingDuration / _gameSettings.StopWalkingTransitionDuration);
             }
             else
@@ -241,7 +265,7 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.rotation = Quaternion.FromToRotation(transform.up, Vector3.up) * transform.rotation;
         }
-    }   
+    }
     public void DeactivateNoClip()
     {
         GetComponent<CharacterController>().excludeLayers = 0;

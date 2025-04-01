@@ -13,7 +13,14 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMB_CUBE_ATMOSPHERE_LP = 3794630063U;
+        static const AkUniqueID AMB_TRANSITION = 2906819207U;
         static const AkUniqueID MC_FT = 2275400278U;
+        static const AkUniqueID SFX_BUTTON = 125802325U;
+        static const AkUniqueID SFX_CUBEROTATION = 2382781056U;
+        static const AkUniqueID SFX_LASEREMETTING_LP = 2922909946U;
+        static const AkUniqueID SFX_LASERRECEIVED = 4087256891U;
+        static const AkUniqueID SFX_LASERREFLECTED = 4113391946U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -38,6 +45,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID AMB_SBK = 3702631076U;
+        static const AkUniqueID ENV_SBK = 4250581681U;
         static const AkUniqueID FOL_SBK = 2606446995U;
         static const AkUniqueID MC_SBK = 4067787562U;
         static const AkUniqueID SFX_SBK = 4254072057U;

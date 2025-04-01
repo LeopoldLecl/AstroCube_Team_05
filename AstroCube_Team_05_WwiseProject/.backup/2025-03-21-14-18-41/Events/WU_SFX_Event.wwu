@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{426AA850-3F63-4654-BEFF-66BC2020DF91}" SchemaVersion="119" RootDocumentID="{AE0BEDAB-3260-42DA-8E2E-2B2702E66E00}" ParentDocumentID="{AE0BEDAB-3260-42DA-8E2E-2B2702E66E00}">
+	<Events>
+		<WorkUnit Name="WU_SFX_Event" ID="{426AA850-3F63-4654-BEFF-66BC2020DF91}" OwnerID="{AE0BEDAB-3260-42DA-8E2E-2B2702E66E00}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="25"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="SFX_CubeRotation" ID="{18B4444E-625C-45C6-8667-5B00E709C178}">
+					<ChildrenList>
+						<Action Name="" ID="{3B4133D2-6869-4853-8295-A7502921A143}" ShortID="824964144">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_RC_CubeRotation" ID="{F8D8919D-6202-4C3E-A13E-64434FA29F26}" WorkUnitID="{E7440703-FB3C-472C-96C8-0CAA08E43D79}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_LaserEmetting_LP" ID="{8820A444-5D06-4959-916B-453471D62653}">
+					<ChildrenList>
+						<Action Name="" ID="{BB71EFB1-9CBD-4299-B057-CD2E9D861224}" ShortID="561216273">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_RC_LaserEmetting" ID="{2C510CEB-4CDA-473A-9393-1A799227D44F}" WorkUnitID="{E7440703-FB3C-472C-96C8-0CAA08E43D79}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_LaserReceived" ID="{976C6BA0-0BDB-450A-8500-BD55593987F9}">
+					<ChildrenList>
+						<Action Name="" ID="{C961FF71-B790-44BD-A052-F72181356AD8}" ShortID="63766872">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_RC_LaserReceived" ID="{56771A5B-2F33-4EEC-9CFC-8D190A499050}" WorkUnitID="{E7440703-FB3C-472C-96C8-0CAA08E43D79}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_LaserReflected" ID="{FC98A12D-63B1-4258-8500-B32B3ED8320A}">
+					<ChildrenList>
+						<Action Name="" ID="{D97C4829-E22E-4CE8-A928-F93AA4B80D53}" ShortID="10352713">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_RC_LaserReflected" ID="{95C5D2A7-4941-44C7-B6CC-E884B76B49BA}" WorkUnitID="{E7440703-FB3C-472C-96C8-0CAA08E43D79}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_Button" ID="{04B07D81-33E8-4B6E-83E2-BC9C732CB20F}">
+					<ChildrenList>
+						<Action Name="" ID="{08335758-D2AA-46E4-A7BD-121C09FB39E4}" ShortID="951586429">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_RC_Button" ID="{C9018A48-1F61-471C-8198-7608CE2320FD}" WorkUnitID="{E7440703-FB3C-472C-96C8-0CAA08E43D79}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

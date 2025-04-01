@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AA1292AB-FC78-4D29-B8C1-F6F70B653928}" SchemaVersion="119" RootDocumentID="{C4DEE831-00D0-493C-BD49-A84E1F32DE1E}" ParentDocumentID="{C4DEE831-00D0-493C-BD49-A84E1F32DE1E}">
+	<SoundBanks>
+		<WorkUnit Name="WU_ENV_SBK" ID="{AA1292AB-FC78-4D29-B8C1-F6F70B653928}" OwnerID="{C4DEE831-00D0-493C-BD49-A84E1F32DE1E}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="22"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="ENV_SBK" ID="{05630EB8-828B-478B-9CC5-754E1CD368BB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="WU_BUS" ID="{4128A7FC-4110-464B-B0F5-F29F7FE96601}" WorkUnitID="{4128A7FC-4110-464B-B0F5-F29F7FE96601}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WU_ENV_Event" ID="{D81A5C5D-95EF-4B61-B632-E489986AB073}" WorkUnitID="{D81A5C5D-95EF-4B61-B632-E489986AB073}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

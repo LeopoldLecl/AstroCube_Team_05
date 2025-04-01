@@ -1,0 +1,20 @@
+Project migration to XML Schema (XSD) version 120 is completed.
+Project migration to XML Schema (XSD) version 121 is completed.
+Project migration to XML Schema (XSD) version 122 is completed.
+Project migration to XML Schema (XSD) version 123 is completed.
+The default work unit '\Conversion Settings\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The Project does not have a Default Conversion Setting object set.  A new Default Conversion Settings was created and set in the Project.
+The default work unit '\Audio Devices\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\States\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Game Parameters\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Effects\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Presets\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Queries\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Interactive Music Hierarchy\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Triggers\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Dynamic Dialogue\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Mixing Sessions\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Control Surface Sessions\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Virtual Acoustics\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+The default work unit '\Metadata\Default Work Unit' is missing.  It has been created. If your project is under source control, remember to add this file.
+Some new object properties have been added or obsolete properties deleted. The project file was updated. These changes will not have an impact on your project.

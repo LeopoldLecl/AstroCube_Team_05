@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C1650E99-028B-460D-938F-32F665A4F802}" SchemaVersion="119" RootDocumentID="{6B41A556-432B-4792-8CB7-ED5108D599E8}" ParentDocumentID="{6B41A556-432B-4792-8CB7-ED5108D599E8}">
+<WwiseDocument Type="WorkUnit" ID="{C1650E99-028B-460D-938F-32F665A4F802}" SchemaVersion="123" RootDocumentID="{6B41A556-432B-4792-8CB7-ED5108D599E8}" ParentDocumentID="{6B41A556-432B-4792-8CB7-ED5108D599E8}">
 	<Switches>
 		<WorkUnit Name="WU_SW_FT" ID="{C1650E99-028B-460D-938F-32F665A4F802}" OwnerID="{6B41A556-432B-4792-8CB7-ED5108D599E8}" PersistMode="Nested">
 			<PropertyList>

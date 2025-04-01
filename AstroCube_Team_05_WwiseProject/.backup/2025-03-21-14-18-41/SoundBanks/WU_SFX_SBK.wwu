@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{203E334E-D927-4B7A-BCBC-C3084268E50B}" SchemaVersion="119" RootDocumentID="{C4DEE831-00D0-493C-BD49-A84E1F32DE1E}" ParentDocumentID="{C4DEE831-00D0-493C-BD49-A84E1F32DE1E}">
+	<SoundBanks>
+		<WorkUnit Name="WU_SFX_SBK" ID="{203E334E-D927-4B7A-BCBC-C3084268E50B}" OwnerID="{C4DEE831-00D0-493C-BD49-A84E1F32DE1E}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="25"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="SFX_SBK" ID="{653AB8BF-84AF-4F6C-B01A-9079A6DBFE3E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="WU_SFX_Event" ID="{426AA850-3F63-4654-BEFF-66BC2020DF91}" WorkUnitID="{426AA850-3F63-4654-BEFF-66BC2020DF91}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AUX_REVLarge" ID="{16E79169-583D-4729-952A-D97524F8612C}" WorkUnitID="{4128A7FC-4110-464B-B0F5-F29F7FE96601}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AUX_REVShort" ID="{E33075AF-4FFC-4AE3-B70E-9749EDB6ABAF}" WorkUnitID="{4128A7FC-4110-464B-B0F5-F29F7FE96601}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

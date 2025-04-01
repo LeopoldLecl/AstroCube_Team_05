@@ -1,10 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[ExecuteAlways]
 public class ShootLaserScript : MonoBehaviour
 {
     [SerializeField] private Material _material;
+    [SerializeField] private float laserMaxDistance = 30f;
+
     private LaserBeam _beam;
     private bool _isLaserActive = false;
 
@@ -12,6 +13,7 @@ public class ShootLaserScript : MonoBehaviour
     {
         EventManager.OnButtonPressed += ActivateLaser;
         EventManager.OnButtonReleased += DeactivateLaser;
+        _isLaserActive = Application.isPlaying ? false : true;
     }
 
     private void OnDisable()
@@ -22,19 +24,10 @@ public class ShootLaserScript : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            ActivateLaser();
-        }
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            DeactivateLaser();
-        }
-
         if (_isLaserActive)
         {
-            Destroy(GameObject.Find("Laser Beam"));
-            _beam = new LaserBeam(gameObject.transform.position, gameObject.transform.right, _material);
+            DestroyImmediate(GameObject.Find("Laser Beam")); // Use DestroyImmediate in editor mode
+            _beam = new LaserBeam(transform.position, transform.right, _material, laserMaxDistance);
         }
     }
 
@@ -46,6 +39,6 @@ public class ShootLaserScript : MonoBehaviour
     private void DeactivateLaser()
     {
         _isLaserActive = false;
-        Destroy(GameObject.Find("Laser Beam"));
+        DestroyImmediate(GameObject.Find("Laser Beam"));
     }
 }

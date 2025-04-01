@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4DEE831-00D0-493C-BD49-A84E1F32DE1E}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{C4DEE831-00D0-493C-BD49-A84E1F32DE1E}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="WU_SFX_SBK" ID="{203E334E-D927-4B7A-BCBC-C3084268E50B}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_AMB_SBK" ID="{714C894A-3737-40DF-879B-9A226615885C}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_FOL_SBK" ID="{C0AC0C57-0125-4549-BAF2-3E82A20400AA}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_MC_SBK" ID="{CE7F2183-D726-4C96-A35C-23A7E6203675}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_ENV_SBK" ID="{AA1292AB-FC78-4D29-B8C1-F6F70B653928}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

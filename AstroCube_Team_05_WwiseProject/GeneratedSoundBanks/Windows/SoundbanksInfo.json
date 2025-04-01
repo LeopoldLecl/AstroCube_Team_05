@@ -1,0 +1,1130 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{ADB093C7-DFD3-2EF3-56A6-430137D610B4}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{D685A25D-07C8-4699-BFA1-8A9197ADAD1D}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{F3ABE6DE-37B2-4F31-A2E9-7B1FBDE53E09}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "4180996447",
+      "Name": "BUS_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev",
+      "GUID": "{3868CBF2-2967-4437-973A-6650E18DF0CB}",
+      "Color": "26"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "2517974655",
+      "Name": "AUX_REVShort",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVShort",
+      "GUID": "{E33075AF-4FFC-4AE3-B70E-9749EDB6ABAF}",
+      "Color": "26"
+     },
+     {
+      "Id": "3217397620",
+      "Name": "AUX_REVLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVLarge",
+      "GUID": "{16E79169-583D-4729-952A-D97524F8612C}",
+      "Color": "26"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2250621752",
+      "Name": "SW_FT",
+      "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT",
+      "GUID": "{2241A6FA-4665-4FC4-882C-8785BFFAB8AE}",
+      "Color": "22",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT\\Concrete",
+        "GUID": "{0D73AE38-59CD-4239-94F3-01712CB3A550}",
+        "Color": "22"
+       },
+       {
+        "Id": "1031089514",
+        "Name": "Debug",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT\\Debug",
+        "GUID": "{A952A510-60D6-4E2B-AD53-F8EC0CBD05DE}",
+        "Color": "22"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT\\Dirt",
+        "GUID": "{B59E17CC-9C29-4DC2-BA45-7F8E0183728E}",
+        "Color": "22"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT\\Carpet",
+        "GUID": "{4918267E-FE45-4119-8F88-D52FDFCC4A90}",
+        "Color": "22"
+       },
+       {
+        "Id": "3316001432",
+        "Name": "Tiles",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT\\Tiles",
+        "GUID": "{122644E3-07E3-4D76-B481-F2EB966F13EF}",
+        "Color": "22"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2606446995",
+    "Type": "User",
+    "GUID": "{E30A5F42-51B5-4327-BC4E-38E683C17EBC}",
+    "Color": "19",
+    "Language": "SFX",
+    "Hash": "{6BFA895D-4D41-B7B1-0C7D-B04A3AC1B6FC}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\WU_FOL_SBK\\FOL_SBK",
+    "ShortName": "FOL_SBK",
+    "Path": "FOL_SBK.bnk",
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "4180996447",
+      "Name": "BUS_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev",
+      "GUID": "{3868CBF2-2967-4437-973A-6650E18DF0CB}",
+      "Color": "26"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "2517974655",
+      "Name": "AUX_REVShort",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVShort",
+      "GUID": "{E33075AF-4FFC-4AE3-B70E-9749EDB6ABAF}",
+      "Color": "26"
+     },
+     {
+      "Id": "3217397620",
+      "Name": "AUX_REVLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVLarge",
+      "GUID": "{16E79169-583D-4729-952A-D97524F8612C}",
+      "Color": "26"
+     }
+    ]
+   },
+   {
+    "Id": "3702631076",
+    "Type": "User",
+    "GUID": "{D8A3959E-27EB-4F77-8F83-21C2E065E718}",
+    "Color": "17",
+    "Language": "SFX",
+    "Hash": "{D13CCD6C-1039-154A-1CC8-55ED2F2D7F47}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\WU_AMB_SBK\\AMB_SBK",
+    "ShortName": "AMB_SBK",
+    "Path": "AMB_SBK.bnk",
+    "Media": [
+     {
+      "Id": "270108792",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB\\AMB_Transition_Atmosphere_01.wav",
+      "CachePath": "DA/{DABE9162-EF87-2F8D-31B2-0814AE6C59D2}.wem"
+     },
+     {
+      "Id": "347484034",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB\\AMB_Cube_Atmosphere_LP_01.wav",
+      "CachePath": "6C/{6C767775-AEED-88FE-968F-101D242D29BA}.wem"
+     },
+     {
+      "Id": "722162420",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB\\AMB_Transition_Atmosphere_02.wav",
+      "CachePath": "B7/{B774E6FA-E28F-E0C3-F3C1-B7DA838DAF34}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3794630063",
+      "Name": "AMB_Cube_Atmosphere_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\WU_AMB_Event\\AMB_Cube_Atmosphere_LP",
+      "GUID": "{420E1F9F-776F-4761-B136-8791B21D4E96}",
+      "Color": "17",
+      "DurationType": "OneShot",
+      "DurationMin": "57.02602",
+      "DurationMax": "57.02602",
+      "MediaRefs": [
+       {
+        "Id": "347484034"
+       }
+      ]
+     },
+     {
+      "Id": "2906819207",
+      "Name": "AMB_Transition",
+      "ObjectPath": "\\Events\\Default Work Unit\\WU_AMB_Event\\AMB_Transition",
+      "GUID": "{9D5532FE-E886-45E8-BFBD-395CB568309F}",
+      "Color": "17",
+      "DurationType": "OneShot",
+      "DurationMin": "11.904687",
+      "DurationMax": "14.249896",
+      "MediaRefs": [
+       {
+        "Id": "270108792"
+       },
+       {
+        "Id": "722162420"
+       }
+      ]
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "4180996447",
+      "Name": "BUS_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev",
+      "GUID": "{3868CBF2-2967-4437-973A-6650E18DF0CB}",
+      "Color": "26"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "2517974655",
+      "Name": "AUX_REVShort",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVShort",
+      "GUID": "{E33075AF-4FFC-4AE3-B70E-9749EDB6ABAF}",
+      "Color": "26"
+     },
+     {
+      "Id": "3217397620",
+      "Name": "AUX_REVLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVLarge",
+      "GUID": "{16E79169-583D-4729-952A-D97524F8612C}",
+      "Color": "26"
+     }
+    ]
+   },
+   {
+    "Id": "4067787562",
+    "Type": "User",
+    "GUID": "{E7778272-12C3-43D2-BA1A-810432583A58}",
+    "Color": "15",
+    "Language": "SFX",
+    "Hash": "{948767AD-300D-CAFD-FEC0-C5ED7B9386B7}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\WU_MC_SBK\\MC_SBK",
+    "ShortName": "MC_SBK",
+    "Path": "MC_SBK.bnk",
+    "Media": [
+     {
+      "Id": "9149491",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Concret\\FOL_FT_Concret_02.wav",
+      "CachePath": "D3/{D3F2494E-1716-3926-6335-1C6CED066851}.wem"
+     },
+     {
+      "Id": "29649115",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Carpet\\FOL_FT_Carpet_08.wav",
+      "CachePath": "84/{84BE66D4-9B0C-3F1E-6879-F2DFF4261114}.wem"
+     },
+     {
+      "Id": "80365883",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Dirt\\FOL_FT_Dirt_07.wav",
+      "CachePath": "70/{700FC764-15BC-D9A6-77A8-29B096B12AAA}.wem"
+     },
+     {
+      "Id": "82606426",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Concret\\FOL_FT_Concret_04.wav",
+      "CachePath": "A5/{A545AEEA-B47A-278D-666A-6A96772A14D5}.wem"
+     },
+     {
+      "Id": "93654997",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Tile\\FOL_FT_Tile_03.wav",
+      "CachePath": "C9/{C9799465-502C-044C-E72C-065C75626686}.wem"
+     },
+     {
+      "Id": "93806522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Dirt\\FOL_FT_Dirt_03.wav",
+      "CachePath": "6D/{6D6296D0-CF7C-E6CF-A8DA-B164D6167ECF}.wem"
+     },
+     {
+      "Id": "97465133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Concret\\FOL_FT_Concret_08.wav",
+      "CachePath": "1C/{1C731DD9-A5AD-343B-775F-274313662BFC}.wem"
+     },
+     {
+      "Id": "103633918",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Tile\\FOL_FT_Tile_07.wav",
+      "CachePath": "24/{243499CE-8F11-64E7-AE12-78499972B681}.wem"
+     },
+     {
+      "Id": "155046801",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Concret\\FOL_FT_Concret_06.wav",
+      "CachePath": "95/{95200A85-E45D-361A-0F22-A3E8DB864C61}.wem"
+     },
+     {
+      "Id": "204090720",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Carpet\\FOL_FT_Carpet_06.wav",
+      "CachePath": "AD/{ADC32888-2D75-533A-9D2E-4766E79DB491}.wem"
+     },
+     {
+      "Id": "235947822",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Tile\\FOL_FT_Tile_01.wav",
+      "CachePath": "53/{539446DC-8F93-E4DA-CE72-FC2AD1C07E95}.wem"
+     },
+     {
+      "Id": "263585110",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Concret\\FOL_FT_Concret_05.wav",
+      "CachePath": "11/{11E17DDA-8B39-121E-F5AE-FA5D55326982}.wem"
+     },
+     {
+      "Id": "265013281",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Dirt\\FOL_FT_Dirt_02.wav",
+      "CachePath": "78/{78CDEEE4-2B31-4C3D-89A9-30CC7F40326A}.wem"
+     },
+     {
+      "Id": "456074853",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Tile\\FOL_FT_Tile_05.wav",
+      "CachePath": "1A/{1A0CA67F-C0AF-3978-C8C1-BCF9D2F69641}.wem"
+     },
+     {
+      "Id": "468371329",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Concret\\FOL_FT_Concret_03.wav",
+      "CachePath": "5D/{5D3C19AB-9B5B-D943-89DB-C31DC37C5E16}.wem"
+     },
+     {
+      "Id": "561751339",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Dirt\\FOL_FT_Dirt_01.wav",
+      "CachePath": "3C/{3C86BF26-55E9-966B-7882-C6B923252458}.wem"
+     },
+     {
+      "Id": "579360474",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Tile\\FOL_FT_Tile_08.wav",
+      "CachePath": "0B/{0BFCECC2-8238-1733-8939-05917E008090}.wem"
+     },
+     {
+      "Id": "599550133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Tile\\FOL_FT_Tile_06.wav",
+      "CachePath": "E3/{E3D09393-69E5-6D7B-5830-2E2F45780210}.wem"
+     },
+     {
+      "Id": "671232388",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Dirt\\FOL_FT_Dirt_06.wav",
+      "CachePath": "A3/{A331F70B-5E0B-D548-81AC-4BB2CD811A6D}.wem"
+     },
+     {
+      "Id": "693105803",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Dirt\\FOL_FT_Dirt_08.wav",
+      "CachePath": "0C/{0C8E6830-93AC-6EB6-046A-D1AFD9935D54}.wem"
+     },
+     {
+      "Id": "708772445",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Carpet\\FOL_FT_Carpet_04.wav",
+      "CachePath": "0E/{0EC5AFDD-C0A5-CD28-6785-BB8633031FD7}.wem"
+     },
+     {
+      "Id": "737844598",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Carpet\\FOL_FT_Carpet_03.wav",
+      "CachePath": "F1/{F1EC7269-9D00-E22B-20E9-7B9B0E0ECEC1}.wem"
+     },
+     {
+      "Id": "742111712",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Carpet\\FOL_FT_Carpet_07.wav",
+      "CachePath": "A5/{A5D01030-6055-A06A-AE40-F960A3C078F1}.wem"
+     },
+     {
+      "Id": "744233543",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Dirt\\FOL_FT_Dirt_04.wav",
+      "CachePath": "33/{33DA8886-5621-A7B1-EED6-3069E4C81A17}.wem"
+     },
+     {
+      "Id": "803916826",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Carpet\\FOL_FT_Carpet_01.wav",
+      "CachePath": "3A/{3A0FD228-4BAA-F21A-9F5B-0C797311DB10}.wem"
+     },
+     {
+      "Id": "828770567",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Concret\\FOL_FT_Concret_01.wav",
+      "CachePath": "F1/{F183E7D1-C977-3135-871C-DE5CE8D8583A}.wem"
+     },
+     {
+      "Id": "834065763",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Dirt\\FOL_FT_Dirt_05.wav",
+      "CachePath": "F0/{F0D65743-9D74-C0BB-25FE-46047A1EF893}.wem"
+     },
+     {
+      "Id": "980894768",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Concret\\FOL_FT_Concret_07.wav",
+      "CachePath": "07/{0753B7DB-1A4D-0439-F3EC-D5F46ECE0054}.wem"
+     },
+     {
+      "Id": "1039656253",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Tile\\FOL_FT_Tile_02.wav",
+      "CachePath": "15/{15974982-1BAC-7D13-85E3-6328BAEBE5B7}.wem"
+     },
+     {
+      "Id": "1053790193",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Carpet\\FOL_FT_Carpet_02.wav",
+      "CachePath": "BD/{BD742DEE-2F28-8101-AB5C-9A1E23D53423}.wem"
+     },
+     {
+      "Id": "1054214912",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Carpet\\FOL_FT_Carpet_05.wav",
+      "CachePath": "78/{784C7B4E-808E-3FD1-7DD6-6ADB20D0F932}.wem"
+     },
+     {
+      "Id": "1054571316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FOL\\FT\\Tile\\FOL_FT_Tile_04.wav",
+      "CachePath": "0E/{0E189AD1-1B18-C3F7-8C71-5996FE9045C9}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2275400278",
+      "Name": "MC_FT",
+      "ObjectPath": "\\Events\\Default Work Unit\\WU_MC_Event\\MC_FT",
+      "GUID": "{44E57645-636E-422B-A4E0-97451A95AC84}",
+      "Color": "15",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0.6518056",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2250621752",
+         "Id": "841620460",
+         "GUID": "{0D73AE38-59CD-4239-94F3-01712CB3A550}",
+         "Color": "22"
+        },
+        "MediaRefs": [
+         {
+          "Id": "9149491"
+         },
+         {
+          "Id": "82606426"
+         },
+         {
+          "Id": "97465133"
+         },
+         {
+          "Id": "155046801"
+         },
+         {
+          "Id": "263585110"
+         },
+         {
+          "Id": "468371329"
+         },
+         {
+          "Id": "828770567"
+         },
+         {
+          "Id": "980894768"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2250621752",
+         "Id": "2412606308",
+         "GUID": "{4918267E-FE45-4119-8F88-D52FDFCC4A90}",
+         "Color": "22"
+        },
+        "MediaRefs": [
+         {
+          "Id": "29649115"
+         },
+         {
+          "Id": "204090720"
+         },
+         {
+          "Id": "708772445"
+         },
+         {
+          "Id": "737844598"
+         },
+         {
+          "Id": "742111712"
+         },
+         {
+          "Id": "803916826"
+         },
+         {
+          "Id": "1053790193"
+         },
+         {
+          "Id": "1054214912"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2250621752",
+         "Id": "2195636714",
+         "GUID": "{B59E17CC-9C29-4DC2-BA45-7F8E0183728E}",
+         "Color": "22"
+        },
+        "MediaRefs": [
+         {
+          "Id": "80365883"
+         },
+         {
+          "Id": "93806522"
+         },
+         {
+          "Id": "265013281"
+         },
+         {
+          "Id": "561751339"
+         },
+         {
+          "Id": "671232388"
+         },
+         {
+          "Id": "693105803"
+         },
+         {
+          "Id": "744233543"
+         },
+         {
+          "Id": "834065763"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2250621752",
+         "Id": "3316001432",
+         "GUID": "{122644E3-07E3-4D76-B481-F2EB966F13EF}",
+         "Color": "22"
+        },
+        "MediaRefs": [
+         {
+          "Id": "93654997"
+         },
+         {
+          "Id": "103633918"
+         },
+         {
+          "Id": "235947822"
+         },
+         {
+          "Id": "456074853"
+         },
+         {
+          "Id": "579360474"
+         },
+         {
+          "Id": "599550133"
+         },
+         {
+          "Id": "1039656253"
+         },
+         {
+          "Id": "1054571316"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "4180996447",
+      "Name": "BUS_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev",
+      "GUID": "{3868CBF2-2967-4437-973A-6650E18DF0CB}",
+      "Color": "26"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "2517974655",
+      "Name": "AUX_REVShort",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVShort",
+      "GUID": "{E33075AF-4FFC-4AE3-B70E-9749EDB6ABAF}",
+      "Color": "26"
+     },
+     {
+      "Id": "3217397620",
+      "Name": "AUX_REVLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVLarge",
+      "GUID": "{16E79169-583D-4729-952A-D97524F8612C}",
+      "Color": "26"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2250621752",
+      "Name": "SW_FT",
+      "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT",
+      "GUID": "{2241A6FA-4665-4FC4-882C-8785BFFAB8AE}",
+      "Color": "22",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT\\Concrete",
+        "GUID": "{0D73AE38-59CD-4239-94F3-01712CB3A550}",
+        "Color": "22"
+       },
+       {
+        "Id": "1031089514",
+        "Name": "Debug",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT\\Debug",
+        "GUID": "{A952A510-60D6-4E2B-AD53-F8EC0CBD05DE}",
+        "Color": "22"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT\\Dirt",
+        "GUID": "{B59E17CC-9C29-4DC2-BA45-7F8E0183728E}",
+        "Color": "22"
+       },
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT\\Carpet",
+        "GUID": "{4918267E-FE45-4119-8F88-D52FDFCC4A90}",
+        "Color": "22"
+       },
+       {
+        "Id": "3316001432",
+        "Name": "Tiles",
+        "ObjectPath": "\\Switches\\Default Work Unit\\WU_SW_FT\\SW_FT\\Tiles",
+        "GUID": "{122644E3-07E3-4D76-B481-F2EB966F13EF}",
+        "Color": "22"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "4250581681",
+    "Type": "User",
+    "GUID": "{05630EB8-828B-478B-9CC5-754E1CD368BB}",
+    "Color": "22",
+    "Language": "SFX",
+    "Hash": "{F922A9DF-43C6-BCC1-3273-F477CECB54C3}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\WU_ENV_SBK\\ENV_SBK",
+    "ShortName": "ENV_SBK",
+    "Path": "ENV_SBK.bnk",
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "4180996447",
+      "Name": "BUS_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev",
+      "GUID": "{3868CBF2-2967-4437-973A-6650E18DF0CB}",
+      "Color": "26"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "2517974655",
+      "Name": "AUX_REVShort",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVShort",
+      "GUID": "{E33075AF-4FFC-4AE3-B70E-9749EDB6ABAF}",
+      "Color": "26"
+     },
+     {
+      "Id": "3217397620",
+      "Name": "AUX_REVLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVLarge",
+      "GUID": "{16E79169-583D-4729-952A-D97524F8612C}",
+      "Color": "26"
+     }
+    ]
+   },
+   {
+    "Id": "4254072057",
+    "Type": "User",
+    "GUID": "{653AB8BF-84AF-4F6C-B01A-9079A6DBFE3E}",
+    "Color": "25",
+    "Language": "SFX",
+    "Hash": "{9B4CB621-FAF9-64B1-8D77-4A9CD00741DD}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\WU_SFX_SBK\\SFX_SBK",
+    "ShortName": "SFX_SBK",
+    "Path": "SFX_SBK.bnk",
+    "Media": [
+     {
+      "Id": "16043277",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Laser\\SFX_Laser_Emitting_02.wav",
+      "CachePath": "65/{659936CC-D00D-11B7-012C-E803CF56B5F6}.wem"
+     },
+     {
+      "Id": "16228947",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\GPE\\SFX_Button_Pressed_03.wav",
+      "CachePath": "94/{9400A20D-476A-DEFD-7361-0E91AC4EB448}.wem"
+     },
+     {
+      "Id": "21617798",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\GPE\\SFX_Button_Pressed_04.wav",
+      "CachePath": "7C/{7C2D63EA-8B83-EE7E-AD99-50F0F2207028}.wem"
+     },
+     {
+      "Id": "65255290",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Cube\\Rotation\\SFX_Cube_Rotation_01.wav",
+      "CachePath": "8D/{8D03038A-FCAE-709A-206D-CC0FBB1264A3}.wem"
+     },
+     {
+      "Id": "70247869",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Cube\\Rotation\\SFX_Cube_Rotation_02.wav",
+      "CachePath": "30/{3028A0F2-A026-254D-5AD0-254C34E38CCE}.wem"
+     },
+     {
+      "Id": "289915932",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\GPE\\SFX_Button_Pressed_02.wav",
+      "CachePath": "D8/{D801EA04-2AF7-FCFD-09BA-CA6AE9D15C2F}.wem"
+     },
+     {
+      "Id": "312887753",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Laser\\SFX_Laser_Reflected_01.wav",
+      "CachePath": "F0/{F0BCF6B5-46DE-B47B-B389-C8E2992D010A}.wem"
+     },
+     {
+      "Id": "463737970",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Cube\\Rotation\\SFX_Cube_Rotation_04.wav",
+      "CachePath": "0E/{0E2ABF00-5C33-12CD-BFD6-7F06AC02D55A}.wem"
+     },
+     {
+      "Id": "557721353",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Laser\\SFX_Laser_Emitting_03.wav",
+      "CachePath": "84/{844F891B-D4AF-FEDE-2A13-A598210A6D35}.wem"
+     },
+     {
+      "Id": "578434559",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Cube\\Rotation\\SFX_Cube_Rotation_03.wav",
+      "CachePath": "73/{73D0F58E-4084-8124-7214-EDC23A778B4B}.wem"
+     },
+     {
+      "Id": "663617190",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Laser\\SFX_Laser_Emitting_01.wav",
+      "CachePath": "48/{48F62267-FD4F-7157-5EC9-B09C844C30EE}.wem"
+     },
+     {
+      "Id": "666187075",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Laser\\SFX_Laser_Reflected_02.wav",
+      "CachePath": "AE/{AE1DE640-5004-6405-13CF-DCBB623460E8}.wem"
+     },
+     {
+      "Id": "738113458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Laser\\SFX_Laser_Reflected_03.wav",
+      "CachePath": "4A/{4A845B60-8FBF-E0B5-EC0E-AB3DC668FB90}.wem"
+     },
+     {
+      "Id": "748590913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Laser\\SFX_Laser_Received_02.wav",
+      "CachePath": "24/{240D94F3-4F59-7B0A-4ED5-32C7B65A8604}.wem"
+     },
+     {
+      "Id": "829273026",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\GPE\\SFX_Button_Pressed_01.wav",
+      "CachePath": "9E/{9E92EF2C-E47C-A9BE-F8E4-6BDB11C40065}.wem"
+     },
+     {
+      "Id": "925561773",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Laser\\SFX_Laser_Received_01.wav",
+      "CachePath": "08/{08625AD1-E700-B803-3225-9DD36BEB3BC2}.wem"
+     },
+     {
+      "Id": "963422868",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Laser\\SFX_Laser_Reflected_04.wav",
+      "CachePath": "73/{739FBAAC-61A3-F70D-CC8E-1D715D12F6D6}.wem"
+     },
+     {
+      "Id": "1039241937",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Laser\\SFX_Laser_Received_03.wav",
+      "CachePath": "C6/{C6B3D8D4-AF02-5BA2-37AB-CA12DD44939B}.wem"
+     },
+     {
+      "Id": "1041205504",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\Laser\\SFX_Laser_Received_04.wav",
+      "CachePath": "8E/{8EEA669E-9201-13E7-4E7A-E04730A590F4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "125802325",
+      "Name": "SFX_Button",
+      "ObjectPath": "\\Events\\Default Work Unit\\WU_SFX_Event\\SFX_Button",
+      "GUID": "{04B07D81-33E8-4B6E-83E2-BC9C732CB20F}",
+      "Color": "25",
+      "MaxAttenuation": "5",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6241359",
+      "DurationMax": "0.7685581",
+      "MediaRefs": [
+       {
+        "Id": "16228947"
+       },
+       {
+        "Id": "21617798"
+       },
+       {
+        "Id": "289915932"
+       },
+       {
+        "Id": "829273026"
+       }
+      ]
+     },
+     {
+      "Id": "2382781056",
+      "Name": "SFX_CubeRotation",
+      "ObjectPath": "\\Events\\Default Work Unit\\WU_SFX_Event\\SFX_CubeRotation",
+      "GUID": "{18B4444E-625C-45C6-8667-5B00E709C178}",
+      "Color": "25",
+      "DurationType": "OneShot",
+      "DurationMin": "0.081899926",
+      "DurationMax": "0.11902438",
+      "MediaRefs": [
+       {
+        "Id": "65255290"
+       },
+       {
+        "Id": "70247869"
+       },
+       {
+        "Id": "463737970"
+       },
+       {
+        "Id": "578434559"
+       }
+      ]
+     },
+     {
+      "Id": "2922909946",
+      "Name": "SFX_LaserEmetting_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\WU_SFX_Event\\SFX_LaserEmetting_LP",
+      "GUID": "{8820A444-5D06-4959-916B-453471D62653}",
+      "Color": "25",
+      "MaxAttenuation": "10",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "16043277"
+       },
+       {
+        "Id": "557721353"
+       },
+       {
+        "Id": "663617190"
+       }
+      ]
+     },
+     {
+      "Id": "4087256891",
+      "Name": "SFX_LaserReceived",
+      "ObjectPath": "\\Events\\Default Work Unit\\WU_SFX_Event\\SFX_LaserReceived",
+      "GUID": "{976C6BA0-0BDB-450A-8500-BD55593987F9}",
+      "Color": "25",
+      "MaxAttenuation": "15",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5435661",
+      "DurationMax": "2.0945246",
+      "MediaRefs": [
+       {
+        "Id": "748590913"
+       },
+       {
+        "Id": "925561773"
+       },
+       {
+        "Id": "1039241937"
+       },
+       {
+        "Id": "1041205504"
+       }
+      ]
+     },
+     {
+      "Id": "4113391946",
+      "Name": "SFX_LaserReflected",
+      "ObjectPath": "\\Events\\Default Work Unit\\WU_SFX_Event\\SFX_LaserReflected",
+      "GUID": "{FC98A12D-63B1-4258-8500-B32B3ED8320A}",
+      "Color": "25",
+      "MaxAttenuation": "15",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4728614",
+      "DurationMax": "2.076713",
+      "MediaRefs": [
+       {
+        "Id": "312887753"
+       },
+       {
+        "Id": "666187075"
+       },
+       {
+        "Id": "738113458"
+       },
+       {
+        "Id": "963422868"
+       }
+      ]
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "4180996447",
+      "Name": "BUS_Rev",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev",
+      "GUID": "{3868CBF2-2967-4437-973A-6650E18DF0CB}",
+      "Color": "26"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "2517974655",
+      "Name": "AUX_REVShort",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVShort",
+      "GUID": "{E33075AF-4FFC-4AE3-B70E-9749EDB6ABAF}",
+      "Color": "26"
+     },
+     {
+      "Id": "3217397620",
+      "Name": "AUX_REVLarge",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\WU_BUS\\BUS_Rev\\AUX_REVLarge",
+      "GUID": "{16E79169-583D-4729-952A-D97524F8612C}",
+      "Color": "26"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EAE25ED5-8FB2-9A38-B497-7F24D67CFE69}"
+ }
+}

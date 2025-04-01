@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,68 +7,65 @@ public class LaserBeam
     GameObject _laserObj;
     LineRenderer _laser;
     List<Vector3> _laserIndices = new List<Vector3>();
+    float _maxDistance;
 
-    public LaserBeam(Vector3 pos, Vector3 dir, Material material)
+    public LaserBeam(Vector3 pos, Vector3 dir, Material material, float maxDistance)
     {
-        this._laser = new LineRenderer();
-        this._laserObj = new GameObject();
-        this._laserObj.name = "Laser Beam";
-        this._pos = pos;
-        this._dir = dir;
+        _laserObj = new GameObject("Laser Beam");
+        _pos = pos;
+        _dir = dir;
+        _maxDistance = maxDistance;
 
-        this._laser = this._laserObj.AddComponent(typeof(LineRenderer)) as LineRenderer;
-        this._laser.startWidth = 0.1f;
-        this._laser.endWidth = 0.1f;
-        this._laser.material = material;
-        this._laser.startColor = Color.red;
-        this._laser.endColor = Color.red;
+        _laser = _laserObj.AddComponent<LineRenderer>();
+        _laser.startWidth = 0.1f;
+        _laser.endWidth = 0.1f;
+        _laser.material = material;
+        _laser.startColor = Color.red;
+        _laser.endColor = Color.red;
 
-        CastRay(pos, dir, _laser);
+        CastRay(pos, dir);
     }
 
-    void CastRay(Vector3 pos, Vector3 dir, LineRenderer laser)
+    void CastRay(Vector3 pos, Vector3 dir)
     {
         _laserIndices.Add(pos);
 
         Ray ray = new Ray(pos, dir);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 30, 1))
+        if (Physics.Raycast(ray, out hit, _maxDistance, ~0))
         {
-           CheckHit(hit, dir, laser);
+            CheckHit(hit, dir);
         }
         else
         {
-            _laserIndices.Add(ray.GetPoint(30));
+            _laserIndices.Add(ray.GetPoint(_maxDistance));
             UpdateLaser();
         }
     }
 
     void UpdateLaser()
     {
-        int count = 0;
         _laser.positionCount = _laserIndices.Count;
 
-        foreach (Vector3 idx in _laserIndices)
+        for (int i = 0; i < _laserIndices.Count; i++)
         {
-            _laser.SetPosition(count, idx);
-            count++;
+            _laser.SetPosition(i, _laserIndices[i]);
         }
     }
 
-    void CheckHit(RaycastHit hitInfo, Vector3 direction, LineRenderer laser)
+    void CheckHit(RaycastHit hitInfo, Vector3 direction)
     {
-        if(hitInfo.collider.tag == "Aim")
+        if (hitInfo.collider.CompareTag("Aim"))
         {
             EventManager.TriggerPlayerWin();
         }
-       
 
-        if (hitInfo.collider.tag == "Mirror")
+        if (hitInfo.collider.CompareTag("Mirror"))
         {
             Vector3 pos = hitInfo.point;
             Vector3 dir = Vector3.Reflect(direction, hitInfo.normal);
-            CastRay(pos, dir, laser);
+            CastRay(pos, dir);
         }
         else
         {

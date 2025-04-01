@@ -146,7 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94e9b8d765e5f6044abb005a68a08d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Demo Rubik'sCube
   PToReturnToMenu: 1
 --- !u!1 &1833692369952463729
 GameObject:
@@ -1021,6 +1020,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9067813692967913725}
     m_Modifications:
+    - target: {fileID: 79869340546498955, guid: 2be5350e4e68a3a4c955fbe7f886531a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1865331449667987795, guid: 2be5350e4e68a3a4c955fbe7f886531a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 911.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2908519204271747221, guid: 2be5350e4e68a3a4c955fbe7f886531a,
         type: 3}
       propertyPath: m_Name
@@ -1125,6 +1134,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013033955334659201, guid: 2be5350e4e68a3a4c955fbe7f886531a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 942.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5103630147972402348, guid: 2be5350e4e68a3a4c955fbe7f886531a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262979351354120735, guid: 2be5350e4e68a3a4c955fbe7f886531a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

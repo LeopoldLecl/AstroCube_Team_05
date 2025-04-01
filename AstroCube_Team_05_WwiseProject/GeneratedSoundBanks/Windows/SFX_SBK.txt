@@ -1,0 +1,39 @@
+Event	ID	Name			Wwise Object Path	Notes
+	125802325	SFX_Button			\Default Work Unit\WU_SFX_Event\SFX_Button	
+	2382781056	SFX_CubeRotation			\Default Work Unit\WU_SFX_Event\SFX_CubeRotation	
+	2922909946	SFX_LaserEmetting_LP			\Default Work Unit\WU_SFX_Event\SFX_LaserEmetting_LP	
+	4087256891	SFX_LaserReceived			\Default Work Unit\WU_SFX_Event\SFX_LaserReceived	
+	4113391946	SFX_LaserReflected			\Default Work Unit\WU_SFX_Event\SFX_LaserReflected	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	949571236	LFO_AMB			\Default Work Unit\LFO_AMB	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4180996447	BUS_Rev			\Default Work Unit\Master Audio Bus\WU_BUS\BUS_Rev	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2517974655	AUX_REVShort			\Default Work Unit\Master Audio Bus\WU_BUS\BUS_Rev\AUX_REVShort	
+	3217397620	AUX_REVLarge			\Default Work Unit\Master Audio Bus\WU_BUS\BUS_Rev\AUX_REVLarge	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	16043277	SFX_Laser_Emitting_02	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\65\{659936CC-D00D-11B7-012C-E803CF56B5F6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Laser\SFX_RC_LaserEmetting\SFX_Laser_Emitting_02		1920096
+	16228947	SFX_Button_Pressed_03	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\94\{9400A20D-476A-DEFD-7361-0E91AC4EB448}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Button\SFX_RC_Button\SFX_Button_Pressed_03		135412
+	21617798	SFX_Button_Pressed_04	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\7C\{7C2D63EA-8B83-EE7E-AD99-50F0F2207028}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Button\SFX_RC_Button\SFX_Button_Pressed_04		135412
+	65255290	SFX_Cube_Rotation_01	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\8D\{8D03038A-FCAE-709A-206D-CC0FBB1264A3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Cube\SFX_RC_CubeRotation\SFX_Cube_Rotation_01		8670
+	70247869	SFX_Cube_Rotation_02	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\30\{3028A0F2-A026-254D-5AD0-254C34E38CCE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Cube\SFX_RC_CubeRotation\SFX_Cube_Rotation_02		10574
+	289915932	SFX_Button_Pressed_02	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\D8\{D801EA04-2AF7-FCFD-09BA-CA6AE9D15C2F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Button\SFX_RC_Button\SFX_Button_Pressed_02		132404
+	312887753	SFX_Laser_Reflected_01	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\F0\{F0BCF6B5-46DE-B47B-B389-C8E2992D010A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Laser\SFX_RC_LaserReflected\SFX_Laser_Reflected_01		352172
+	463737970	SFX_Cube_Rotation_04	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\0E\{0E2ABF00-5C33-12CD-BFD6-7F06AC02D55A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Cube\SFX_RC_CubeRotation\SFX_Cube_Rotation_04		10340
+	557721353	SFX_Laser_Emitting_03	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\84\{844F891B-D4AF-FEDE-2A13-A598210A6D35}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Laser\SFX_RC_LaserEmetting\SFX_Laser_Emitting_03		1920096
+	578434559	SFX_Cube_Rotation_03	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\73\{73D0F58E-4084-8124-7214-EDC23A778B4B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Cube\SFX_RC_CubeRotation\SFX_Cube_Rotation_03		9596
+	663617190	SFX_Laser_Emitting_01	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\48\{48F62267-FD4F-7157-5EC9-B09C844C30EE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Laser\SFX_RC_LaserEmetting\SFX_Laser_Emitting_01		1920096
+	666187075	SFX_Laser_Reflected_02	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\AE\{AE1DE640-5004-6405-13CF-DCBB623460E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Laser\SFX_RC_LaserReflected\SFX_Laser_Reflected_02		308480
+	738113458	SFX_Laser_Reflected_03	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\4A\{4A845B60-8FBF-E0B5-EC0E-AB3DC668FB90}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Laser\SFX_RC_LaserReflected\SFX_Laser_Reflected_03		329788
+	748590913	SFX_Laser_Received_02	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\24\{240D94F3-4F59-7B0A-4ED5-32C7B65A8604}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Laser\SFX_RC_LaserReceived\SFX_Laser_Received_02		323284
+	829273026	SFX_Button_Pressed_01	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\9E\{9E92EF2C-E47C-A9BE-F8E4-6BDB11C40065}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Button\SFX_RC_Button\SFX_Button_Pressed_01		130776
+	925561773	SFX_Laser_Received_01	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\08\{08625AD1-E700-B803-3225-9DD36BEB3BC2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Laser\SFX_RC_LaserReceived\SFX_Laser_Received_01		361784
+	963422868	SFX_Laser_Reflected_04	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\73\{739FBAAC-61A3-F70D-CC8E-1D715D12F6D6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Laser\SFX_RC_LaserReflected\SFX_Laser_Reflected_04		365732
+	1039241937	SFX_Laser_Received_03	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\C6\{C6B3D8D4-AF02-5BA2-37AB-CA12DD44939B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Laser\SFX_RC_LaserReceived\SFX_Laser_Received_03		368868
+	1041205504	SFX_Laser_Received_04	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\8E\{8EEA669E-9201-13E7-4E7A-E04730A590F4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_SFX\AM_SFX\Laser\SFX_RC_LaserReceived\SFX_Laser_Received_04		324196
+

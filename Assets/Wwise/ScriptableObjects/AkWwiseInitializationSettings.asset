@@ -16,11 +16,11 @@ MonoBehaviour:
   - Mac
   - Windows
   PlatformSettingsList:
-  - {fileID: 11400000, guid: 4cfc314499eb0b74b9029c9df2baf2a0, type: 2}
-  - {fileID: 11400000, guid: c92437808ef0af745b2fc93abbf675ab, type: 2}
+  - {fileID: 11400000, guid: a9d4747d3f594462180f9cbe91bcbb04, type: 2}
+  - {fileID: 11400000, guid: 706647d2e46e44e06bf2a7becf8fe0de, type: 2}
   InvalidReferencePlatforms: []
   UserSettings:
-    m_BasePath: Audio\GeneratedSoundBanks
+    m_BasePath: Audio/GeneratedSoundBanks
     m_StartupLanguage: English(US)
     m_EngineLogging: 1
     m_IsDecodedBankEnabled: 0

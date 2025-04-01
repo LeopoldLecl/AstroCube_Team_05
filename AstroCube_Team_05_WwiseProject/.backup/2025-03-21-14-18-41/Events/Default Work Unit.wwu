@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE0BEDAB-3260-42DA-8E2E-2B2702E66E00}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AE0BEDAB-3260-42DA-8E2E-2B2702E66E00}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="WU_SFX_Event" ID="{426AA850-3F63-4654-BEFF-66BC2020DF91}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_AMB_Event" ID="{AB89A74D-55C3-45EC-96E3-D508A0A19E14}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_MC_Event" ID="{A1A88635-D805-4C96-855F-4814A7191CA0}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_FOL_Event" ID="{CA310504-DF9F-410E-9C89-954DB2C68450}" PersistMode="Reference"/>
+				<WorkUnit Name="WU_ENV_Event" ID="{D81A5C5D-95EF-4B61-B632-E489986AB073}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

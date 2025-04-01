@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Wwise/ScriptableObjects/Event.meta
+guid: 9968fec44a2566d4098403389472d25d
+========
 guid: 263d02418cf17554cbe8ad81de5dec62
+>>>>>>>> Dev:Assets/Game/Scripts/LD_Elements/Constelation.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

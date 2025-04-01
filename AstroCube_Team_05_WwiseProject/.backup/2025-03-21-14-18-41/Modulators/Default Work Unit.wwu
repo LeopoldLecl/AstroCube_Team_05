@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0BA9E2C4-A9D8-4F3A-AE3F-399A4AC196E4}" SchemaVersion="119">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{0BA9E2C4-A9D8-4F3A-AE3F-399A4AC196E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="LFO_AMB" ID="{A9F406F5-8EB7-4141-9BCC-E88FBC7EF4AB}" ShortID="949571236">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="20"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="1.5">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C22974F5-81EA-4E91-9A2E-08794F24877D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2"/>
+											<Property Name="Min" Type="Real64" Value="-0.5"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoSmoothing" Type="Real64" Value="50">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9F813720-45B0-44A8-8371-1B0C84CAD838}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="25"/>
+											<Property Name="Min" Type="Real64" Value="-25"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

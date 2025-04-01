@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{4128A7FC-4110-464B-B0F5-F29F7FE96601}" SchemaVersion="119" RootDocumentID="{21225781-E533-4FEC-8567-8CF7D2EC9036}" ParentDocumentID="{21225781-E533-4FEC-8567-8CF7D2EC9036}">
+<WwiseDocument Type="WorkUnit" ID="{4128A7FC-4110-464B-B0F5-F29F7FE96601}" SchemaVersion="123" RootDocumentID="{21225781-E533-4FEC-8567-8CF7D2EC9036}" ParentDocumentID="{21225781-E533-4FEC-8567-8CF7D2EC9036}">
 	<Busses>
 		<WorkUnit Name="WU_BUS" ID="{4128A7FC-4110-464B-B0F5-F29F7FE96601}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
 			<PropertyList>

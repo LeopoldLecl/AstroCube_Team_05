@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2906819207	AMB_Transition			\Default Work Unit\WU_AMB_Event\AMB_Transition	
+	3794630063	AMB_Cube_Atmosphere_LP			\Default Work Unit\WU_AMB_Event\AMB_Cube_Atmosphere_LP	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4180996447	BUS_Rev			\Default Work Unit\Master Audio Bus\WU_BUS\BUS_Rev	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2517974655	AUX_REVShort			\Default Work Unit\Master Audio Bus\WU_BUS\BUS_Rev\AUX_REVShort	
+	3217397620	AUX_REVLarge			\Default Work Unit\Master Audio Bus\WU_BUS\BUS_Rev\AUX_REVLarge	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	270108792	AMB_Transition_Atmosphere_01	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\DA\{DABE9162-EF87-2F8D-31B2-0814AE6C59D2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_AMB\AM_AMB\Cube_Atmosphere\AMB_RC_Transition\AMB_Transition_Atmosphere_01		2352772
+	347484034	AMB_Cube_Atmosphere_LP_01	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\6C\{6C767775-AEED-88FE-968F-101D242D29BA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_AMB\AM_AMB\Cube_Atmosphere\AMB_Cube_Atmosphere_LP_01		5474594
+	722162420	AMB_Transition_Atmosphere_02	Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\.cache\B7\{B774E6FA-E28F-E0C3-F3C1-B7DA838DAF34}.wem		\Actor-Mixer Hierarchy\Default Work Unit\WU_AMB\AM_AMB\Cube_Atmosphere\AMB_RC_Transition\AMB_Transition_Atmosphere_02		2658188
+

@@ -1,75 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ValidationCache Version="1" SchemaVersion="119">
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\States\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Queries\Factory Queries.wwu" DateLow="1741716793" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1741716793" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Events\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Effects\Factory Effects.wwu" DateLow="1741716793" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1741716793" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\AstroCube_Team_05_WwiseProject.wproj" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05_WwiseIntegrationTemp\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1741718217" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Switches\WU_SW_FT.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\States\Default Work Unit.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1742295681" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\WU_SFX_SBK.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\WU_MC_SBK.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\WU_FOL_SBK.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\WU_ENV_SBK.wwu" DateLow="1742303099" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\WU_AMB_SBK.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1742303054" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Queries\Factory Queries.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1742313195" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1742313195" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Master-Mixer Hierarchy\WU_BUS.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\WU_SFX_Event.wwu" DateLow="1742302805" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\WU_MC_Event.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\WU_FOL_Event.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\WU_ENV_Event.wwu" DateLow="1742302937" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\WU_AMB_Event.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\Default Work Unit.wwu" DateLow="1742302937" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Effects\Factory Effects.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1742313195" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1742313195" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1742313196" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\AstroCube_Team_05_WwiseProject.wproj" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\AstroCube_Team_05_WwiseProject.crossover.wsettings" DateLow="1742307479" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\WU_SFX.wwu" DateLow="1742307479" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\WU_MC.wwu" DateLow="1742301579" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\WU_FOL.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\WU_ENV.wwu" DateLow="1742302908" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\WU_AMB.wwu" DateLow="1742295125" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1742302908" DateHigh="0"/>
+<ValidationCache Version="1" SchemaVersion="123">
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Switches\WU_SW_FT.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\States\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\WU_SFX_SBK.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\WU_MC_SBK.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\WU_FOL_SBK.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\WU_ENV_SBK.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\WU_AMB_SBK.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Master-Mixer Hierarchy\WU_BUS.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\WU_SFX_Event.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\WU_MC_Event.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\WU_FOL_Event.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\WU_ENV_Event.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\WU_AMB_Event.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Events\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Attenuations\WU_ATT.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\AstroCube_Team_05_WwiseProject.wproj" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\AstroCube_Team_05_WwiseProject.crossover.wsettings" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\WU_SFX.wwu" DateLow="1742564242" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\WU_MC.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\WU_FOL.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\WU_ENV.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\WU_AMB.wwu" DateLow="1742563121" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\Github\AstroCube_Team_05\AstroCube_Team_05_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1742563121" DateHigh="0"/>
 </ValidationCache>

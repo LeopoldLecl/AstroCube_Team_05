@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="UserProjectSettings" SchemaVersion="119">
+<WwiseDocument Type="UserProjectSettings" SchemaVersion="123">
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{1C833C2F-1D64-405C-8DF3-CD3E53F0F178}">
 			<PropertyList>
@@ -41,8 +41,8 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="y+La+QIHY022BMvomxMcPLG4T5FqP9lMtCgP7Jnkz9c="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="coJ358MS0kO6GoEEMlg6WA=="/>
-				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="npWj2Osnd0+PgyHC4GXnGLgOYwWLgotHnMV1ThzTaLtCXwrjtVEnQ7xOOOaDwX68coJ358MS0kO6GoEEMlg6WL+4OmWvhGxPsBqQeabb/j4="/>
+				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>

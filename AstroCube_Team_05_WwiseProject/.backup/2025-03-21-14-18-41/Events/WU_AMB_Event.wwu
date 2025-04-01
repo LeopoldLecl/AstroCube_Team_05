@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB89A74D-55C3-45EC-96E3-D508A0A19E14}" SchemaVersion="119" RootDocumentID="{AE0BEDAB-3260-42DA-8E2E-2B2702E66E00}" ParentDocumentID="{AE0BEDAB-3260-42DA-8E2E-2B2702E66E00}">
+	<Events>
+		<WorkUnit Name="WU_AMB_Event" ID="{AB89A74D-55C3-45EC-96E3-D508A0A19E14}" OwnerID="{AE0BEDAB-3260-42DA-8E2E-2B2702E66E00}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="17"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="AMB_Cube_Atmosphere_LP" ID="{420E1F9F-776F-4761-B136-8791B21D4E96}">
+					<ChildrenList>
+						<Action Name="" ID="{997AD2BB-A53C-40A1-8964-A43F1EBE2F30}" ShortID="1073668119">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Cube_Atmosphere_LP_01" ID="{570C6C41-670B-4749-A414-376D7709C6A3}" WorkUnitID="{A9C6891E-CDA0-4F80-9E9D-2678C166EA92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B6CF66FF-19BE-4C96-9E22-0343416511AD}" ShortID="316131172">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{69F52516-AF90-44FA-97E2-686569E5FBEA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Cube_Atmosphere_LP_01" ID="{570C6C41-670B-4749-A414-376D7709C6A3}" WorkUnitID="{A9C6891E-CDA0-4F80-9E9D-2678C166EA92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Transition" ID="{9D5532FE-E886-45E8-BFBD-395CB568309F}">
+					<ChildrenList>
+						<Action Name="" ID="{BBC0A534-5E3F-4A88-84B1-8716FDC23084}" ShortID="930807505">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_RC_Transition" ID="{F988CED3-420C-4505-AF5D-DE9BA02FCBBE}" WorkUnitID="{A9C6891E-CDA0-4F80-9E9D-2678C166EA92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

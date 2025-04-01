@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4128A7FC-4110-464B-B0F5-F29F7FE96601}" SchemaVersion="119" RootDocumentID="{21225781-E533-4FEC-8567-8CF7D2EC9036}" ParentDocumentID="{21225781-E533-4FEC-8567-8CF7D2EC9036}">
+	<Busses>
+		<WorkUnit Name="WU_BUS" ID="{4128A7FC-4110-464B-B0F5-F29F7FE96601}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="26"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Bus Name="BUS_Rev" ID="{3868CBF2-2967-4437-973A-6650E18DF0CB}">
+					<ChildrenList>
+						<AuxBus Name="AUX_REVLarge" ID="{16E79169-583D-4729-952A-D97524F8612C}"/>
+						<AuxBus Name="AUX_REVShort" ID="{E33075AF-4FFC-4AE3-B70E-9749EDB6ABAF}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

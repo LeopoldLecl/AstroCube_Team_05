@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C1650E99-028B-460D-938F-32F665A4F802}" SchemaVersion="119" RootDocumentID="{6B41A556-432B-4792-8CB7-ED5108D599E8}" ParentDocumentID="{6B41A556-432B-4792-8CB7-ED5108D599E8}">
+	<Switches>
+		<WorkUnit Name="WU_SW_FT" ID="{C1650E99-028B-460D-938F-32F665A4F802}" OwnerID="{6B41A556-432B-4792-8CB7-ED5108D599E8}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="22"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchGroup Name="SW_FT" ID="{2241A6FA-4665-4FC4-882C-8785BFFAB8AE}">
+					<ChildrenList>
+						<Switch Name="Dirt" ID="{B59E17CC-9C29-4DC2-BA45-7F8E0183728E}"/>
+						<Switch Name="Concrete" ID="{0D73AE38-59CD-4239-94F3-01712CB3A550}"/>
+						<Switch Name="Carpet" ID="{4918267E-FE45-4119-8F88-D52FDFCC4A90}"/>
+						<Switch Name="Tiles" ID="{122644E3-07E3-4D76-B481-F2EB966F13EF}"/>
+						<Switch Name="Debug" ID="{A952A510-60D6-4E2B-AD53-F8EC0CBD05DE}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

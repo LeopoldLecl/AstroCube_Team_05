@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A1A88635-D805-4C96-855F-4814A7191CA0}" SchemaVersion="119" RootDocumentID="{AE0BEDAB-3260-42DA-8E2E-2B2702E66E00}" ParentDocumentID="{AE0BEDAB-3260-42DA-8E2E-2B2702E66E00}">
+	<Events>
+		<WorkUnit Name="WU_MC_Event" ID="{A1A88635-D805-4C96-855F-4814A7191CA0}" OwnerID="{AE0BEDAB-3260-42DA-8E2E-2B2702E66E00}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="MC_FT" ID="{44E57645-636E-422B-A4E0-97451A95AC84}">
+					<ChildrenList>
+						<Action Name="" ID="{C0596A3D-1F74-4058-84ED-6D7D53169293}" ShortID="223104229">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_FT" ID="{6D0A89FD-8972-4C9A-8D66-42146513817B}" WorkUnitID="{FF401074-BE77-4C1F-94B7-9A0448031B52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
