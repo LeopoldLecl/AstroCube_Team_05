@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: DialogueTest1
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 6c15a79a-6cb3-437e-b0da-e6761ba5db01
+    PortName: Next
+    TargetNodeGUID: 70a8127f-9650-4357-891c-0a82021ebe6b
+  - BaseNodeGUID: 70a8127f-9650-4357-891c-0a82021ebe6b
+    PortName: Ntm
+    TargetNodeGUID: 33b3e091-23db-4d37-afe4-68e3977cb085
+  - BaseNodeGUID: 70a8127f-9650-4357-891c-0a82021ebe6b
+    PortName: "T'as les crampt\xE9s"
+    TargetNodeGUID: 024b0d1a-18f2-44ec-9fc9-6fad281da916
+  - BaseNodeGUID: 70a8127f-9650-4357-891c-0a82021ebe6b
+    PortName: Huh?
+    TargetNodeGUID: ea337a05-98e2-4970-8374-1582597db469
+  - BaseNodeGUID: 70a8127f-9650-4357-891c-0a82021ebe6b
+    PortName: "on est l\xE0 hein"
+    TargetNodeGUID: 08c05417-114d-422a-b77e-4c4f88e4d826
+  - BaseNodeGUID: 08c05417-114d-422a-b77e-4c4f88e4d826
+    PortName: Output
+    TargetNodeGUID: d87840f8-2072-402b-961f-06e905e6e47d
+  - BaseNodeGUID: 024b0d1a-18f2-44ec-9fc9-6fad281da916
+    PortName: Apagnan
+    TargetNodeGUID: 0779a41a-fd5a-4595-b020-88bb476b0295
+  - BaseNodeGUID: 024b0d1a-18f2-44ec-9fc9-6fad281da916
+    PortName: Nan rien
+    TargetNodeGUID: 192285f0-80dd-4495-98ac-ab8ae2e33c99
+  - BaseNodeGUID: af7c769c-3e70-4a62-bc14-25ded5b5cdec
+    PortName: KYS
+    TargetNodeGUID: 420322fc-4e4e-4401-b2cf-d0822dc9bd40
+  - BaseNodeGUID: 37d7e334-398d-4160-b9bc-a16113e9834c
+    PortName: e
+    TargetNodeGUID: 41e1985f-4940-42d1-9c09-325b60c5d3c7
+  - BaseNodeGUID: 4eb905bd-daba-44d3-a05b-d747781da176
+    PortName: Next
+    TargetNodeGUID: af7c769c-3e70-4a62-bc14-25ded5b5cdec
+  - BaseNodeGUID: 206df7e8-bf9a-4dad-82ab-c71c4309c088
+    PortName: Next
+    TargetNodeGUID: 37d7e334-398d-4160-b9bc-a16113e9834c
+  DialogueNodeData:
+  - NodeGUID: 70a8127f-9650-4357-891c-0a82021ebe6b
+    DialogueText: "Ceci est un test.<delay=2></delay> je teste actuellement le syst\xE8me
+      de dialogue et la casse de tous ce bordel.\xE7a dit quoi le sang ?"
+    LoveValue: 0
+    emotionOverride: 1
+    loveAmount: 3
+    Position: {x: -336, y: -17.454544}
+  - NodeGUID: 08c05417-114d-422a-b77e-4c4f88e4d826
+    DialogueText: ok c good
+    LoveValue: 15
+    emotionOverride: 2
+    loveAmount: 4
+    Position: {x: 862.2545, y: 54.109093}
+  - NodeGUID: 024b0d1a-18f2-44ec-9fc9-6fad281da916
+    DialogueText: Hein ?
+    LoveValue: 0
+    emotionOverride: 1
+    loveAmount: 3
+    Position: {x: 862.2545, y: 198.10909}
+  - NodeGUID: 33b3e091-23db-4d37-afe4-68e3977cb085
+    DialogueText: bah ntm chien
+    LoveValue: -10
+    emotionOverride: 4
+    loveAmount: 0
+    Position: {x: 850.0363, y: -84.65454}
+  - NodeGUID: ea337a05-98e2-4970-8374-1582597db469
+    DialogueText: Huh??
+    LoveValue: 5
+    emotionOverride: 1
+    loveAmount: 2
+    Position: {x: 853.5272, y: 399.70908}
+  - NodeGUID: d87840f8-2072-402b-961f-06e905e6e47d
+    DialogueText: AAAAAAAAA
+    LoveValue: 0
+    emotionOverride: 3
+    loveAmount: 6
+    Position: {x: 1158.9818, y: 30.545454}
+  - NodeGUID: 192285f0-80dd-4495-98ac-ab8ae2e33c99
+    DialogueText: Ah ok
+    LoveValue: 5
+    emotionOverride: 2
+    loveAmount: 4
+    Position: {x: 1158.9818, y: 296.72726}
+  - NodeGUID: 0779a41a-fd5a-4595-b020-88bb476b0295
+    DialogueText: '* Te casse la nuque *'
+    LoveValue: -30
+    emotionOverride: 4
+    loveAmount: 0
+    Position: {x: 1158.9818, y: 164.07272}
+  - NodeGUID: 420322fc-4e4e-4401-b2cf-d0822dc9bd40
+    DialogueText: SWMG
+    LoveValue: 0
+    emotionOverride: 3
+    loveAmount: 3
+    Position: {x: 571.63635, y: 451.19998}
+  - NodeGUID: 41e1985f-4940-42d1-9c09-325b60c5d3c7
+    DialogueText: AAAAAAAAAAAAAAAAAAAA
+    LoveValue: 0
+    emotionOverride: 0
+    loveAmount: 3
+    Position: {x: 571.63635, y: 634.4727}
+  - NodeGUID: 37d7e334-398d-4160-b9bc-a16113e9834c
+    DialogueText: GGRAAAH
+    LoveValue: 0
+    emotionOverride: 3
+    loveAmount: 3
+    Position: {x: 284.50906, y: 651.0545}
+  - NodeGUID: af7c769c-3e70-4a62-bc14-25ded5b5cdec
+    DialogueText: GOUGOUGAGA
+    LoveValue: 0
+    emotionOverride: 2
+    loveAmount: 3
+    Position: {x: 274.03635, y: 409.30905}
+  ExposedProperties: []
+  CommentBlockData: []
+  endings:
+  - NodeGUID: 6c15a79a-6cb3-437e-b0da-e6761ba5db01
+    DialogueText: ENTRYPOINT
+    LoveValue: 0
+    emotionOverride: 0
+    loveAmount: 0
+    Position: {x: 100.36363, y: 199.85454}
+  - NodeGUID: 206df7e8-bf9a-4dad-82ab-c71c4309c088
+    DialogueText: Ending 1
+    LoveValue: 0
+    emotionOverride: 0
+    loveAmount: 0
+    Position: {x: 100.36363, y: 399.70908}
+  - NodeGUID: 4eb905bd-daba-44d3-a05b-d747781da176
+    DialogueText: Ending 2
+    LoveValue: 0
+    emotionOverride: 0
+    loveAmount: 0
+    Position: {x: 100.36363, y: 599.5636}

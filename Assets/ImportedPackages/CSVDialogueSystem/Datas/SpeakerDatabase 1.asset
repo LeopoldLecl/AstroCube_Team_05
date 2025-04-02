@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99aef259a2747bc4ca78bce31fe8a772, type: 3}
+  m_Name: SpeakerDatabase 1
+  m_EditorClassIdentifier: 
+  speakerDatas:
+  - id: BAD_NIC_01
+    label: Jules
+    statuses:
+    - emotion: 0
+      icon: {fileID: 21300000, guid: 10f72847d7af62443afce9a74bb3b9ee, type: 3}
+      audioClip: {fileID: 8300000, guid: 0431a82b20e6ca24295d18c2e1cf7f35, type: 3}
+    - emotion: 1
+      icon: {fileID: 21300000, guid: 10f72847d7af62443afce9a74bb3b9ee, type: 3}
+      audioClip: {fileID: 8300000, guid: 0431a82b20e6ca24295d18c2e1cf7f35, type: 3}
+    - emotion: 3
+      icon: {fileID: 21300000, guid: 10f72847d7af62443afce9a74bb3b9ee, type: 3}
+      audioClip: {fileID: 8300000, guid: 0431a82b20e6ca24295d18c2e1cf7f35, type: 3}
+  - id: BAD_FRE_02
+    label: "C\xE9sar"
+    statuses:
+    - emotion: 0
+      icon: {fileID: 21300000, guid: 10f72847d7af62443afce9a74bb3b9ee, type: 3}
+      audioClip: {fileID: 8300000, guid: 0431a82b20e6ca24295d18c2e1cf7f35, type: 3}
+    - emotion: 1
+      icon: {fileID: 21300000, guid: 10f72847d7af62443afce9a74bb3b9ee, type: 3}
+      audioClip: {fileID: 8300000, guid: 0431a82b20e6ca24295d18c2e1cf7f35, type: 3}
