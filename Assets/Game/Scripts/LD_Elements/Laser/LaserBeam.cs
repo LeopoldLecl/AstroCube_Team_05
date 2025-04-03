@@ -23,7 +23,7 @@ public class LaserBeam
         _laser.startColor = Color.red;
         _laser.endColor = Color.red;
 
-        CastRay(pos, dir);
+        CastRay(_pos, _dir);
     }
 
     void CastRay(Vector3 pos, Vector3 dir)
@@ -33,7 +33,8 @@ public class LaserBeam
         Ray ray = new Ray(pos, dir);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, _maxDistance, ~0))
+        // Ignore les colliders avec isTrigger = true
+        if (Physics.Raycast(ray, out hit, _maxDistance, ~0, QueryTriggerInteraction.Ignore))
         {
             CheckHit(hit, dir);
         }
@@ -41,16 +42,6 @@ public class LaserBeam
         {
             _laserIndices.Add(ray.GetPoint(_maxDistance));
             UpdateLaser();
-        }
-    }
-
-    void UpdateLaser()
-    {
-        _laser.positionCount = _laserIndices.Count;
-
-        for (int i = 0; i < _laserIndices.Count; i++)
-        {
-            _laser.SetPosition(i, _laserIndices[i]);
         }
     }
 
@@ -65,12 +56,22 @@ public class LaserBeam
         {
             Vector3 pos = hitInfo.point;
             Vector3 dir = Vector3.Reflect(direction, hitInfo.normal);
-            CastRay(pos, dir);
+            CastRay(pos, dir); // Rebond sur le miroir
         }
         else
         {
             _laserIndices.Add(hitInfo.point);
             UpdateLaser();
+        }
+    }
+
+    void UpdateLaser()
+    {
+        _laser.positionCount = _laserIndices.Count;
+
+        for (int i = 0; i < _laserIndices.Count; i++)
+        {
+            _laser.SetPosition(i, _laserIndices[i]);
         }
     }
 }
