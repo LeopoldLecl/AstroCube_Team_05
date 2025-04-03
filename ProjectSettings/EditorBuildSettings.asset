@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Game/Scenes/StartMenu.unity
     guid: 7152477cda12e0f4488862f142a44875
   - enabled: 1
-    path: Assets/Game/Scenes/LD_Scenes/LVL_new/LVL_LASER_PROTO.unity
+    path: Assets/Game/Scenes/LD_Scenes/LVL_LASER_NICO.unity
     guid: a0cdfc05ad142624f9c0da797bdf776d
   - enabled: 1
     path: Assets/Game/Scenes/StartMenu.unity
