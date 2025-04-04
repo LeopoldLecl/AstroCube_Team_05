@@ -17,7 +17,6 @@ public class KaleidoscopeManager : MonoBehaviour
     void Start()
     {
         _screen = GetComponent<Image>();
-        _kaleidoscopeMat = GetComponent<Image>().material;
     }
 
     // Update is called once per frame
@@ -58,4 +57,6 @@ public class KaleidoscopeManager : MonoBehaviour
         }
     }
 }
+
+
 
