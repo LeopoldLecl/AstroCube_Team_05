@@ -1,0 +1,62 @@
+PlaythoughDataLog
+
+Date: 4/3/2025 4:23:29 PM
+Scene Name: LVL_PATH_01
+Time Completed: 4.83156
+Number Of Moves: 0
+
+Date: 4/3/2025 4:23:44 PM
+Scene Name: LVL_PATH_02
+Time Completed: 13.60594
+Number Of Moves: 2
+
+Date: 4/4/2025 9:09:32 AM
+Scene Name: LVL_PATH_01
+Time Completed: 17.35432
+Number Of Moves: 0
+
+Date: 4/4/2025 9:27:43 AM
+Scene Name: LVL_PATH_01
+Time Completed: 10.98082
+Number Of Moves: 0
+
+Date: 4/4/2025 9:28:06 AM
+Scene Name: LVL_PATH_01
+Time Completed: 8.97936
+Number Of Moves: 0
+
+Date: 4/4/2025 9:30:15 AM
+Scene Name: LVL_PATH_01
+Time Completed: 5.411895
+Number Of Moves: 0
+
+Date: 4/4/2025 9:30:29 AM
+Scene Name: LVL_PATH_02
+Time Completed: 12.25785
+Number Of Moves: 2
+
+Date: 4/4/2025 9:30:43 AM
+Scene Name: LVL_PATH_01
+Time Completed: 4.959377
+Number Of Moves: 0
+
+Date: 4/4/2025 9:33:15 AM
+Scene Name: LVL_PATH_01
+Time Completed: 20.6181
+Number Of Moves: 0
+
+Date: 4/4/2025 9:33:29 AM
+Scene Name: LVL_PATH_02
+Time Completed: 13.35278
+Number Of Moves: 2
+
+Date: 4/4/2025 9:35:54 AM
+Scene Name: LVL_PATH_01
+Time Completed: 5.476752
+Number Of Moves: 0
+
+Date: 4/4/2025 9:52:38 AM
+Scene Name: LVL_PATH_01
+Time Completed: 5.118004
+Number Of Moves: 0
+
