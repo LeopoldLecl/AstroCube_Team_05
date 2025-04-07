@@ -15,6 +15,7 @@ TagManager:
   - SpeedZone
   - ElectricPoint
   - Floor
+  - ConveyerBelt
   layers:
   - Default
   - TransparentFX

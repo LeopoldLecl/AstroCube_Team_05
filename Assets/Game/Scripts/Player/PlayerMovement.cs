@@ -65,11 +65,15 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 newCamPos;
 
+    Vector3 _externallyAppliedMovement = Vector3.zero;
+
     public float defaultSpeed { get; private set; }
 
 
     private float _timerBeforeNextStep = 0;
     public float _timerTNextStep = 1;
+
+    
 
 
     void Start()
@@ -154,14 +158,14 @@ public class PlayerMovement : MonoBehaviour
         // no clip
         _horizontalVelocity += transform.up * _yInput;
 
-        // apply calculated
+        // apply calculated Movement
         _controller.Move(_horizontalVelocity *
-                         (_crouchInput ? _currentMoveSpeed : _currentMoveSpeed / _gameSettings.CrouchSpeed) * Time.deltaTime);
+                         (_crouchInput ? _currentMoveSpeed : _currentMoveSpeed / _gameSettings.CrouchSpeed) * Time.deltaTime
+                         + _externallyAppliedMovement);
         _controller.Move(_verticalVelocity * Time.deltaTime);
 
         _ApplyCameraHeight(newCamPos.y);
         ExecuteFootStep();
-        ;
     }
 
     void ExecuteFootStep()
@@ -274,5 +278,10 @@ public class PlayerMovement : MonoBehaviour
     public void ActionVerticalMovement(float direction)
     {
         _yInput = direction;
+    }
+
+    public void SetExternallyAppliedMovement(Vector3 directon, float speed = 1)
+    {
+        _externallyAppliedMovement = directon * speed;
     }
 }
