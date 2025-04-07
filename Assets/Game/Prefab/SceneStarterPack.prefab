@@ -993,6 +993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentOpacity: 0
+  _kaleidoscopeCam: {fileID: 1553321637301444103}
 --- !u!1 &6322939889583639398
 GameObject:
   m_ObjectHideFlags: 0

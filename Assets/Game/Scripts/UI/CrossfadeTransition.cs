@@ -8,6 +8,8 @@ public class CrossfadeTransition : MonoBehaviour
 {
     public float currentOpacity;
 
+    [SerializeField] GameObject _kaleidoscopeCam;
+
     Image _screen;
     
     private void OnEnable()
@@ -37,5 +39,17 @@ public class CrossfadeTransition : MonoBehaviour
     private void Update()
     {
         _screen.material.SetFloat("_Alpha", currentOpacity);
+
+        if (currentOpacity == 0 && _kaleidoscopeCam.activeSelf == true)
+        {
+            _screen.enabled = false;
+            _kaleidoscopeCam.SetActive(false);
+        }
+        
+        if (currentOpacity != 0 && _kaleidoscopeCam.activeSelf == false)
+        {
+            _screen.enabled = true;
+            _kaleidoscopeCam.SetActive(true);
+        }
     }
 }
