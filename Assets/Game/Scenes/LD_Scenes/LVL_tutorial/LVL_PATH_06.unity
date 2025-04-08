@@ -3204,6 +3204,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8214713991742349177, guid: 78a6ab5813cf9ee4b8ee48a1ebc53aa6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 685df3f059497c94c96d8fd71b286557, type: 2}
     - target: {fileID: -8679921383154817045, guid: 6c9d426a47e69af47a7813857461ee51,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3284,11 +3289,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: porte_001
       objectReference: {fileID: 0}
-    - target: {fileID: 8214713991742349177, guid: 78a6ab5813cf9ee4b8ee48a1ebc53aa6,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 685df3f059497c94c96d8fd71b286557, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
