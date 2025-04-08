@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GameSettings
   m_EditorClassIdentifier: 
   cameraSensibilityJoystick: 1000
-  cameraSensibilityMouse: 50
+  cameraSensibilityMouse: 100
   _playerMoveSpeed: 4
   _gravity: -20
   _jumpHeight: 1
