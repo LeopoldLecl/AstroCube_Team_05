@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aade57aac0ab35b42971e2561a7bf92f, type: 3}
   m_Name: GameSettings
   m_EditorClassIdentifier: 
-  cameraSensibilityJoystick: 1200
+  cameraSensibilityJoystick: 1000
   cameraSensibilityMouse: 100
-  _playerMoveSpeed: 3
-  _gravity: -30
+  _playerMoveSpeed: 4
+  _gravity: -20
   _jumpHeight: 1
   _crouchSpeed: 0.5
   _crouchHeight: 0.5
   _slippingMovementControl: 0.01
-  _headBobbingAmount: 0.05
+  _headBobbingAmount: 0.1
   _headBobbingSpeed: 2
   _startWalkingTransitionDuration: 0.1
   _stopWalkingTransitionDuration: 1

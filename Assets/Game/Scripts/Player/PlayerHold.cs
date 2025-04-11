@@ -56,9 +56,9 @@ public class PlayerHold : MonoBehaviour
 
     private void _Hold()
     {
-        //_holdedObject.GetTransform().parent = _holdTransform;
+        _holdedObject.GetTransform().parent = _holdTransform;
         _isHolding = true;
-        _holdedObject.OnHold(_holdTransform);
+        _holdedObject.OnHold();
     }
 
     private void _Release()

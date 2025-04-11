@@ -8,8 +8,8 @@ using UnityEngine.SceneManagement;
 
 public class TrackerTestDesign : MonoBehaviour
 {
-    public int rotationTracker { get; private set; } = 0;
-    public float timeTracker { get; private set; } = 0f;    
+    private int rotationTracker = 0;
+    private float timeTracker = 0f;
 
     [SerializeField] private TextMeshProUGUI timeTrackerText;
     [SerializeField] private TextMeshProUGUI rotationTrackerText;

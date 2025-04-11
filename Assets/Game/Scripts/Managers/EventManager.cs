@@ -8,8 +8,6 @@ public class EventManager : MonoBehaviour
 
     private GameSettings _gameSettings;
 
-    public static bool gamePaused = false;
-
     private void Awake()
     {
         if (instance) Destroy(this);
@@ -27,9 +25,6 @@ public class EventManager : MonoBehaviour
 
     public static event Action OnSceneChange;
 
-    public static event Action OnGamePause;
-    public static event Action OnGameUnpause;
-
 
     //Rubik's Cube Events
     public static event Action OnCubeRotated;
@@ -42,36 +37,20 @@ public class EventManager : MonoBehaviour
     public static event Action<float> OnPlayerReset;
     public static event Action<float> OnPlayerResetOnce;
 
-    public static event Action OnStartSequence;
-    public static event Action OnEndSequence;
-
     public static void TriggerPlayerWin()
     {
         OnPlayerWin?.Invoke();
+        EventManager.TriggerSceneEnd();
     }
 
-    public void TriggerPlayerLose()
+    public static void TriggerPlayerLose()
     {
-        Debug.Log("Lose Event Triggered!");
         OnPlayerLose?.Invoke();
-        TriggerReset();
     }    
     
     public static void TriggerSceneChange()
     {
         OnSceneChange?.Invoke();
-    }
-
-    public static void TriggerGamePause()
-    {
-        OnGamePause?.Invoke();
-        gamePaused = true;
-    }
-
-    public static void TriggerGameUnpause()
-    {
-        OnGameUnpause?.Invoke();
-        gamePaused = false;
     }
 
     public static void TriggerButtonPressed()
@@ -100,16 +79,6 @@ public class EventManager : MonoBehaviour
 
     public static void TriggerSceneEnd() {
         OnSceneEnd?.Invoke();
-    }
-
-    public static void TriggerSequenceStart()
-    {
-        OnStartSequence?.Invoke();
-    }
-
-    public static void TriggerSequenceEnd()
-    {
-        OnEndSequence?.Invoke();
     }
 
     public static void TriggerCubeRotated()

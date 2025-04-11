@@ -5,39 +5,39 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Game/Scenes/OpeningScene.unity
     guid: 5ce92d1c4efc14b479383b01f4f9b547
+  - enabled: 1
+    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial/LVL_PATH_01.unity
+    guid: ad6d610a63576234bbd89da793838c00
+  - enabled: 1
+    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial/LVL_PATH_02.unity
+    guid: d0e97180f027b4342a9f19e7632de712
+  - enabled: 1
+    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial/LVL_PATH_03.unity
+    guid: a744c7b930907894c8f1d933ae73144c
+  - enabled: 1
+    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial/LVL_PATH_04.unity
+    guid: 22fb76817b8c8714cb2faf337676c9c4
+  - enabled: 1
+    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial/LVL_PATH_05.unity
+    guid: cf2c6481582254c4a83e982004baf10c
+  - enabled: 1
+    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial/LVL_PATH_06.unity
+    guid: 00b807bde8ca2044186dfb08cfb9e65a
+  - enabled: 1
+    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial/LVL_PATH_07.unity
+    guid: 59ba3f199a8e45d42837fc87e8eff394
   - enabled: 1
     path: Assets/Game/Scenes/StartMenu.unity
     guid: 7152477cda12e0f4488862f142a44875
   - enabled: 1
-    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial_LevelArt/LVL_NAR01_LA.unity
-    guid: 687b8da6bf8792e46af855e32fd06f4f
-  - enabled: 1
-    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial_LevelArt/LVL_NAR02_LA.unity
-    guid: 4c30f425bdecba74b8cd696d855744e3
-  - enabled: 1
-    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial_LevelArt/LVL_NAR03_LA.unity
-    guid: d0642fea0dc82fc4983a2f6e258bccb5
-  - enabled: 1
-    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial_LevelArt/LVL_PATH01bis_LA.unity
-    guid: 0e323677d8339504cbcd84b51024e87c
-  - enabled: 1
-    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial_LevelArt/LVL_PATH_02_LA.unity
-    guid: 1edca567c7e7ae848b22dc1ab8f4c271
-  - enabled: 1
-    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial_LevelArt/LVL_PATH_03_LA.unity
-    guid: de5ecfbcb7cf9d34b875efec6e192b7c
-  - enabled: 1
-    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial_LevelArt/LVL_PATH_04_LA.unity
-    guid: 950f408e3a0ef7c4d98693ee719ae017
-  - enabled: 1
-    path: Assets/Game/Scenes/LD_Scenes/LVL_tutorial_LevelArt/LVL_PATH_05_LA.unity
-    guid: fedc2b4d97c6bcc4ebabe64bd11e8b2e
-  - enabled: 0
-    path: Assets/Game/Scenes/LD_Scenes/LVL_new/LVL_LASER_PROTO.unity
+    path: Assets/Game/Scenes/LD_Scenes/LVL_LASER_NICO.unity
     guid: a0cdfc05ad142624f9c0da797bdf776d
+  - enabled: 1
+    path: Assets/Game/Scenes/StartMenu.unity
+    guid: 7152477cda12e0f4488862f142a44875
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: c51cef712fc8b6f4f8cf820b385faf4b,
       type: 2}

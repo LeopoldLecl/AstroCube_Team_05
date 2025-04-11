@@ -14,8 +14,6 @@ TagManager:
   - SlipperyZone
   - SpeedZone
   - ElectricPoint
-  - Floor
-  - ConveyerBelt
   layers:
   - Default
   - TransparentFX
@@ -27,7 +25,7 @@ TagManager:
   - Floor
   - Tile
   - Cube
-  - Player
+  - 
   - 
   - 
   - 
@@ -52,7 +50,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: UI
-    uniqueID: 404961393
     locked: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public interface IHoldable 
 {
-    public void OnHold(Transform newParent);
+    public void OnHold();
     public void OnRelease();
     public Transform GetTransform();
     public Transform GetOriginalParent();

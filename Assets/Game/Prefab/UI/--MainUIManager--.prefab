@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 17.144531, y: 942.6}
+  m_AnchoredPosition: {x: 17.144531, y: 901}
   m_SizeDelta: {x: 311.7109, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &4208484696922782071
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
@@ -145,7 +145,6 @@ GameObject:
   - component: {fileID: 3776537172907695245}
   - component: {fileID: 2624762894961128679}
   - component: {fileID: 1522659445475049203}
-  - component: {fileID: 200430512393026362}
   m_Layer: 5
   m_Name: --MainUIManager--
   m_TagString: Untagged
@@ -187,6 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94e9b8d765e5f6044abb005a68a08d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scene: StartMenu
   PToReturnToMenu: 1
 --- !u!114 &1522659445475049203
 MonoBehaviour:
@@ -202,19 +202,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTrackerText: {fileID: 79869340546498955}
   rotationTrackerText: {fileID: 5103630147972402348}
---- !u!114 &200430512393026362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2908519204271747221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c96ec7608889b24a90f8ac4d886fc6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  path: PlaythroughData.txt
 --- !u!1 &8007253303930833509
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,7 +236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 17.144531, y: 911.5}
+  m_AnchoredPosition: {x: 17.144531, y: 851}
   m_SizeDelta: {x: 311.7109, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1804604551569330913
@@ -307,7 +294,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
@@ -443,7 +430,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
