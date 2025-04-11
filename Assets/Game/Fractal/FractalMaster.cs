@@ -105,15 +105,15 @@ public class FractalMaster : MonoBehaviour
                 fractalPower = 1f + oscillationRange * (1f + (Mathf.Cos(t + Mathf.PI)));
             }
 
-            fractalPower = Mathf.Lerp(2.5f, 9f, (Mathf.Sin(Time.time * .25f) + 1) / 2);
-
+            //fractalPower = Mathf.Lerp(2.5f, 9f, (Mathf.Sin(Time.time * .25f) + 1) / 2);
+            /*
             redA = Mathf.Cos((Time.time +0f) *0.3f)/2 + .5f;
             greenA = Mathf.Sin((Time.time - 0.6f) * 0.3f) /2 + .5f;
             blueA = Mathf.Sin((Time.time + .9f) * 0.3f) /2 + .5f;
             redB = Mathf.Cos((Time.time + .8f) * 0.3f) /2 + .5f;
             greenB = Mathf.Cos((Time.time - 0f) * 0.3f) /2 + .5f;
             blueB = Mathf.Sin((Time.time+ .0f) * 0.3f) /2 + .5f;
-
+            */
         }
         UpdateTexture();
 

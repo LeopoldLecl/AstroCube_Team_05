@@ -23,7 +23,7 @@ Material:
   m_Name: M_SelectionFace
   m_Shader: {fileID: -6465566751694194690, guid: 3fd540da214b34543b821715e2a5a365,
     type: 3}
-  m_Parent: {fileID: 2100000, guid: d56bed45ec66adb4daaeb608888560e0, type: 2}
+  m_Parent: {fileID: 2100000, guid: 4506b58582bf8af4a8cadcf07aa3e4b6, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -36,9 +36,42 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _SampleTexture2D_002c177604504f9da0d77512c08ce91f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 7d5bb62bc482e4f4f948d1f645854a9c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2d6c54331d364a90ba88de12c0ffe20b_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 7b1197f97a1d4f742a95d06d1aecce30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6e00b54a51e64c55b328f93b1bb40dbe_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 8bdf95ba9238aaf4eba03397b1acd727, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a8778c7c892045ada7f54b9d74e88ee5_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: e486c112219572a44b7d830d00cf447a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c5d9fc573c074b5286a3bfb863e72a8e_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 134b0b71e81799e4faff7f729915edc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f41f3b3c8d994d29a3e8546378a31a28_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: aa8df4507f8c55e418176cf5d551c6f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f815d4349d1947d2a57d3429190b1b35_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d1d6803801b5c5349ba42204ec7a6456, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: d1d6803801b5c5349ba42204ec7a6456, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _IsFloor: 1
     m_Colors:
-    - _Color: {r: 0.53396225, g: 0.6735952, b: 1, a: 0.7372549}
+    - _Color: {r: 0.7389999, g: 0.92274827, b: 1, a: 0.4}
   m_BuildTextureStacks: []

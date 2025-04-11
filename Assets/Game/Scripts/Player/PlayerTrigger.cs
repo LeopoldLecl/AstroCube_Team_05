@@ -15,7 +15,7 @@ public class PlayerTrigger : MonoBehaviour
         }
         if (other.CompareTag("DeathZone"))
         {
-            EventManager.TriggerPlayerLose();
+            EventManager.Instance.TriggerPlayerLose();
         }
 
         if (other.gameObject.tag == "SlipperyZone")
@@ -26,6 +26,13 @@ public class PlayerTrigger : MonoBehaviour
         if (other.gameObject.tag == "SpeedZone")
         {
             GetComponent<PlayerMovement>().SetSpeed(GetComponent<PlayerMovement>().defaultSpeed * newSpeedMultiplyer);
+        }
+
+        if (other.gameObject.tag == "ConveyerBelt")
+        {
+            Vector3 dir = other.GetComponent<ConveyerBeltManager>().direction;
+            float speed = other.GetComponent<ConveyerBeltManager>().speed;
+            GetComponent<PlayerMovement>().SetExternallyAppliedMovement(dir, speed);
         }
     }
 
@@ -39,6 +46,11 @@ public class PlayerTrigger : MonoBehaviour
         if (other.gameObject.tag == "SpeedZone")
         {
             GetComponent<PlayerMovement>().SetSpeedToDefault();
+        }
+
+        if (other.gameObject.tag == "ConveyerBelt")
+        {
+            GetComponent<PlayerMovement>().SetExternallyAppliedMovement(Vector3.zero);
         }
     }
 }

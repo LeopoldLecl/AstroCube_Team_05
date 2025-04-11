@@ -3894,6 +3894,11 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 24
       objectReference: {fileID: 0}
+    - target: {fileID: 4437162040308481237, guid: 84abab8cf84190243b77da89d494331b,
+        type: 3}
+      propertyPath: _fadeSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 4646527443668710722, guid: 84abab8cf84190243b77da89d494331b,
         type: 3}
       propertyPath: m_fontSizeBase
@@ -4239,6 +4244,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _tilesPerFaces.Array.data[53]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7966183882618176240, guid: 84abab8cf84190243b77da89d494331b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3242395701988093748, guid: 84abab8cf84190243b77da89d494331b, type: 3}

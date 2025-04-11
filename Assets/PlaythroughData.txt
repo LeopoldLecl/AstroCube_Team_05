@@ -1,0 +1,635 @@
+PlaythoughDataLog
+
+<<<<<<< Updated upstream
+Date: 04/04/2025 10:26:25
+Scene Name: LVL_PATH_04
+Time Completed: 13,68994
+Number Of Moves: 0
+
+Date: 04/04/2025 10:26:59
+Scene Name: LVL_PATH_04
+Time Completed: 15,96364
+Number Of Moves: 0
+
+Date: 04/04/2025 10:29:32
+Scene Name: LVL_PATH_04
+Time Completed: 15,8287
+Number Of Moves: 0
+
+=======
+Date: 03/04/2025 10:20:56
+Scene Name: ZoneAndPlateform
+Time Completed: 7,265558
+Number Of Moves: 0
+
+Date: 03/04/2025 10:35:22
+Scene Name: ZoneAndPlateform
+Time Completed: 23,50162
+Number Of Moves: 0
+
+Date: 03/04/2025 10:37:38
+Scene Name: ZoneAndPlateform
+Time Completed: 11,29919
+Number Of Moves: 0
+
+Date: 03/04/2025 10:38:27
+Scene Name: ZoneAndPlateform
+Time Completed: 7,159821
+Number Of Moves: 0
+
+Date: 03/04/2025 10:45:36
+Scene Name: ZoneAndPlateform
+Time Completed: 33,485
+Number Of Moves: 0
+
+Date: 03/04/2025 10:52:03
+Scene Name: ZoneAndPlateform
+Time Completed: 8,916076
+Number Of Moves: 0
+
+Date: 03/04/2025 10:52:52
+Scene Name: ZoneAndPlateform
+Time Completed: 9,266886
+Number Of Moves: 0
+
+Date: 03/04/2025 10:53:24
+Scene Name: ZoneAndPlateform
+Time Completed: 13,58052
+Number Of Moves: 0
+
+Date: 03/04/2025 11:41:07
+Scene Name: ZoneAndPlateform
+Time Completed: 15,90812
+Number Of Moves: 0
+
+Date: 03/04/2025 11:41:44
+Scene Name: ZoneAndPlateform
+Time Completed: 9,02902
+Number Of Moves: 0
+
+Date: 03/04/2025 11:42:19
+Scene Name: ZoneAndPlateform
+Time Completed: 6,567531
+Number Of Moves: 0
+
+Date: 03/04/2025 11:43:17
+Scene Name: ZoneAndPlateform
+Time Completed: 27,21056
+Number Of Moves: 0
+
+Date: 03/04/2025 11:46:18
+Scene Name: ZoneAndPlateform
+Time Completed: 6,620181
+Number Of Moves: 0
+
+Date: 04/04/2025 09:02:09
+Scene Name: ZoneAndPlateform
+Time Completed: 24,19121
+Number Of Moves: 0
+
+Date: 04/04/2025 09:03:01
+Scene Name: ZoneAndPlateform
+Time Completed: 17,43824
+Number Of Moves: 0
+
+Date: 04/04/2025 09:04:06
+Scene Name: ZoneAndPlateform
+Time Completed: 17,49471
+Number Of Moves: 0
+
+Date: 04/04/2025 09:07:03
+Scene Name: ZoneAndPlateform
+Time Completed: 6,148985
+Number Of Moves: 0
+
+Date: 04/04/2025 09:11:07
+Scene Name: ZoneAndPlateform
+Time Completed: 6,994063
+Number Of Moves: 0
+
+Date: 04/04/2025 09:13:08
+Scene Name: ZoneAndPlateform
+Time Completed: 48,39772
+Number Of Moves: 0
+
+Date: 04/04/2025 09:13:17
+Scene Name: ZoneAndPlateform
+Time Completed: 7,005313
+Number Of Moves: 0
+
+Date: 04/04/2025 09:13:36
+Scene Name: ZoneAndPlateform
+Time Completed: 4,880995
+Number Of Moves: 0
+
+Date: 04/04/2025 09:13:43
+Scene Name: ZoneAndPlateform
+Time Completed: 5,754339
+Number Of Moves: 0
+
+Date: 04/04/2025 09:14:02
+Scene Name: ZoneAndPlateform
+Time Completed: 4,365227
+Number Of Moves: 0
+
+Date: 04/04/2025 09:16:45
+Scene Name: ZoneAndPlateform
+Time Completed: 5,822826
+Number Of Moves: 0
+
+Date: 04/04/2025 09:18:46
+Scene Name: ZoneAndPlateform
+Time Completed: 13,85754
+Number Of Moves: 0
+
+Date: 04/04/2025 09:24:05
+Scene Name: ZoneAndPlateform
+Time Completed: 10,56191
+Number Of Moves: 0
+
+Date: 04/04/2025 09:26:02
+Scene Name: ZoneAndPlateform
+Time Completed: 8,77706
+Number Of Moves: 0
+
+Date: 04/04/2025 09:28:28
+Scene Name: ZoneAndPlateform
+Time Completed: 62,70197
+Number Of Moves: 2
+
+Date: 04/04/2025 09:35:52
+Scene Name: ZoneAndPlateform
+Time Completed: 6,488354
+Number Of Moves: 0
+
+Date: 04/04/2025 09:37:15
+Scene Name: ZoneAndPlateform
+Time Completed: 67,97569
+Number Of Moves: 0
+
+Date: 04/04/2025 09:37:46
+Scene Name: ZoneAndPlateform
+Time Completed: 5,400235
+Number Of Moves: 0
+
+Date: 04/04/2025 09:38:49
+Scene Name: ZoneAndPlateform
+Time Completed: 17,35118
+Number Of Moves: 0
+
+Date: 04/04/2025 09:38:57
+Scene Name: ZoneAndPlateform
+Time Completed: 4,012784
+Number Of Moves: 0
+
+Date: 04/04/2025 09:39:55
+Scene Name: ZoneAndPlateform
+Time Completed: 7,539812
+Number Of Moves: 0
+
+Date: 04/04/2025 09:42:18
+Scene Name: ZoneAndPlateform
+Time Completed: 33,43072
+Number Of Moves: 0
+
+Date: 04/04/2025 09:48:34
+Scene Name: ZoneAndPlateform
+Time Completed: 19,09681
+Number Of Moves: 0
+
+Date: 04/04/2025 09:59:13
+Scene Name: ZoneAndPlateform
+Time Completed: 11,2742
+Number Of Moves: 0
+
+Date: 04/04/2025 09:59:33
+Scene Name: ZoneAndPlateform
+Time Completed: 6,584054
+Number Of Moves: 0
+
+Date: 04/04/2025 10:01:25
+Scene Name: ZoneAndPlateform
+Time Completed: 7,445036
+Number Of Moves: 0
+
+Date: 04/04/2025 10:04:10
+Scene Name: ZoneAndPlateform
+Time Completed: 31,2134
+Number Of Moves: 0
+
+Date: 04/04/2025 10:06:08
+Scene Name: ZoneAndPlateform
+Time Completed: 4,097533
+Number Of Moves: 0
+
+Date: 04/04/2025 10:06:38
+Scene Name: ZoneAndPlateform
+Time Completed: 7,578367
+Number Of Moves: 0
+
+Date: 04/04/2025 10:08:04
+Scene Name: ZoneAndPlateform
+Time Completed: 18,87154
+Number Of Moves: 0
+
+Date: 04/04/2025 10:08:25
+Scene Name: ZoneAndPlateform
+Time Completed: 8,482203
+Number Of Moves: 0
+
+Date: 07/04/2025 14:53:48
+Scene Name: ZoneAndPlateform
+Time Completed: 25,93558
+Number Of Moves: 0
+
+Date: 07/04/2025 14:54:53
+Scene Name: ZoneAndPlateform
+Time Completed: 50,9397
+Number Of Moves: 19
+
+>>>>>>> Stashed changes
+Date: 08/04/2025 16:09:42
+Scene Name: LVL_NAR01_LA
+Time Completed: 1,054114
+Number Of Moves: 0
+
+Date: 08/04/2025 16:09:52
+Scene Name: LVL_NAR02_LA
+Time Completed: 0,7538937
+Number Of Moves: 0
+
+Date: 08/04/2025 16:10:01
+Scene Name: LVL_NAR03_LA
+Time Completed: 1,204208
+Number Of Moves: 0
+
+Date: 08/04/2025 16:10:06
+Scene Name: LVL_PATH01_LA bis1
+Time Completed: 1,963036
+Number Of Moves: 0
+
+Date: 08/04/2025 16:10:07
+Scene Name: LVL_PATH_02
+Time Completed: 0,7205229
+Number Of Moves: 0
+
+Date: 08/04/2025 16:10:10
+Scene Name: LVL_PATH_07
+Time Completed: 0,5373333
+Number Of Moves: 0
+
+Date: 08/04/2025 16:10:12
+Scene Name: LVL_PATH_04_LA
+Time Completed: 0,7540258
+Number Of Moves: 0
+
+Date: 09/04/2025 09:48:24
+Scene Name: LVL_NAR01_LA
+Time Completed: 5,968307
+Number Of Moves: 0
+
+Date: 09/04/2025 09:51:09
+Scene Name: LVL_NAR01_LA
+Time Completed: 7,707483
+Number Of Moves: 0
+
+Date: 09/04/2025 10:38:07
+Scene Name: LVL_NAR01_LA
+Time Completed: 9,624546
+Number Of Moves: 0
+
+Date: 09/04/2025 10:38:27
+Scene Name: LVL_NAR01_LA
+Time Completed: 3,550261
+Number Of Moves: 1
+
+Date: 09/04/2025 10:38:34
+Scene Name: LVL_NAR01_LA
+Time Completed: 2,16843
+Number Of Moves: 0
+
+Date: 09/04/2025 10:40:14
+Scene Name: LVL_NAR01_LA
+Time Completed: 4,647211
+Number Of Moves: 0
+
+Date: 09/04/2025 10:40:26
+Scene Name: LVL_NAR01_LA
+Time Completed: 5,517428
+Number Of Moves: 0
+
+Date: 09/04/2025 10:40:41
+Scene Name: LVL_NAR01_LA
+Time Completed: 7,653152
+Number Of Moves: 0
+
+Date: 09/04/2025 10:42:58
+Scene Name: LVL_NAR01_LA
+Time Completed: 6,401252
+Number Of Moves: 2
+
+Date: 09/04/2025 10:43:14
+Scene Name: LVL_NAR01_LA
+Time Completed: 4,900666
+Number Of Moves: 0
+
+Date: 09/04/2025 11:09:56
+Scene Name: LVL_NAR01_LA
+Time Completed: 8,529479
+Number Of Moves: 1
+
+Date: 09/04/2025 11:10:17
+Scene Name: LVL_NAR01_LA
+Time Completed: 4,059097
+Number Of Moves: 2
+
+Date: 09/04/2025 11:10:32
+Scene Name: LVL_NAR01_LA
+Time Completed: 4,968383
+Number Of Moves: 0
+
+Date: 09/04/2025 11:13:02
+Scene Name: LVL_NAR02_LA
+Time Completed: 18,5401
+Number Of Moves: 0
+
+Date: 09/04/2025 11:27:02
+Scene Name: LVL_NAR01_LA
+Time Completed: 15,84448
+Number Of Moves: 0
+
+Date: 09/04/2025 11:27:12
+Scene Name: LVL_NAR01_LA
+Time Completed: 6,123901
+Number Of Moves: 0
+
+Date: 09/04/2025 11:35:11
+Scene Name: LVL_NAR02_LA
+Time Completed: 1,845919
+Number Of Moves: 0
+
+Date: 09/04/2025 11:35:22
+Scene Name: LVL_PATH_01_LA
+Time Completed: 7,009776
+Number Of Moves: 0
+
+Date: 09/04/2025 11:35:26
+Scene Name: LVL_PATH_01_LA
+Time Completed: 1,535921
+Number Of Moves: 0
+
+Date: 09/04/2025 11:35:29
+Scene Name: LVL_PATH01_LA bis1
+Time Completed: 1,993373
+Number Of Moves: 0
+
+Date: 09/04/2025 11:35:36
+Scene Name: LVL_NAR03_LA
+Time Completed: 5,829368
+Number Of Moves: 0
+
+Date: 09/04/2025 11:35:39
+Scene Name: LVL_PATH_01_LA
+Time Completed: 1,420923
+Number Of Moves: 0
+
+Date: 09/04/2025 11:48:10
+Scene Name: LVL_PATH_02
+Time Completed: 725,4755
+Number Of Moves: 0
+
+Date: 09/04/2025 11:48:14
+Scene Name: LVL_PATH_04_LA
+Time Completed: 2,315049
+Number Of Moves: 0
+
+Date: 09/04/2025 11:48:17
+Scene Name: LVL_PATH_02
+Time Completed: 1,723829
+Number Of Moves: 0
+
+Date: 09/04/2025 11:55:41
+Scene Name: LVL_NAR01_LA
+Time Completed: 4,357227
+Number Of Moves: 0
+
+Date: 09/04/2025 11:55:58
+Scene Name: LVL_NAR01_LA
+Time Completed: 3,15377
+Number Of Moves: 1
+
+Date: 09/04/2025 11:56:07
+Scene Name: LVL_NAR01_LA
+Time Completed: 3,653471
+Number Of Moves: 0
+
+Date: 09/04/2025 11:56:17
+Scene Name: LVL_NAR01_LA
+Time Completed: 3,501408
+Number Of Moves: 1
+
+Date: 09/04/2025 13:44:58
+Scene Name: LVL_NAR01_LA
+Time Completed: 4,593007
+Number Of Moves: 0
+
+Date: 09/04/2025 13:45:13
+Scene Name: LVL_NAR02_LA
+Time Completed: 2,742387
+Number Of Moves: 0
+
+Date: 09/04/2025 13:50:54
+Scene Name: LVL_NAR01_LA
+Time Completed: 3,244043
+Number Of Moves: 0
+
+Date: 09/04/2025 13:53:41
+Scene Name: LVL_NAR02_LA
+Time Completed: 12,27376
+Number Of Moves: 0
+
+Date: 09/04/2025 13:55:20
+Scene Name: LVL_NAR02_LA
+Time Completed: 2,770091
+Number Of Moves: 0
+
+Date: 09/04/2025 14:17:27
+Scene Name: LVL_NAR03_LA
+Time Completed: 31,73545
+Number Of Moves: 0
+
+Date: 09/04/2025 14:17:35
+Scene Name: LVL_PATH_01_LA
+Time Completed: 3,082652
+Number Of Moves: 0
+
+Date: 09/04/2025 14:18:24
+Scene Name: LVL_NAR03_LA
+Time Completed: 40,30109
+Number Of Moves: 0
+
+Date: 09/04/2025 14:21:47
+Scene Name: LVL_NAR03_LA
+Time Completed: 26,87782
+Number Of Moves: 0
+
+Date: 09/04/2025 15:08:17
+Scene Name: LVL_NAR03_LA
+Time Completed: 115,5144
+Number Of Moves: 0
+
+Date: 09/04/2025 15:09:18
+Scene Name: LVL_NAR03_LA
+Time Completed: 1,564133
+Number Of Moves: 0
+
+Date: 09/04/2025 15:09:38
+Scene Name: LVL_NAR03_LA
+Time Completed: 6,004334
+Number Of Moves: 0
+
+Date: 09/04/2025 15:09:51
+Scene Name: LVL_NAR03_LA
+Time Completed: 9,039477
+Number Of Moves: 0
+
+Date: 09/04/2025 15:10:04
+Scene Name: LVL_NAR03_LA
+Time Completed: 3,722735
+Number Of Moves: 0
+
+Date: 09/04/2025 15:11:36
+Scene Name: LVL_NAR03_LA
+Time Completed: 62,10515
+Number Of Moves: 0
+
+Date: 09/04/2025 15:15:35
+Scene Name: LVL_NAR03_LA
+Time Completed: 24,94957
+Number Of Moves: 0
+
+Date: 09/04/2025 15:17:22
+Scene Name: LVL_NAR03_LA
+Time Completed: 14,78882
+Number Of Moves: 0
+
+Date: 09/04/2025 15:20:14
+Scene Name: LVL_NAR03_LA
+Time Completed: 21,72596
+Number Of Moves: 0
+
+Date: 09/04/2025 15:21:48
+Scene Name: LVL_PATH_02_LA
+Time Completed: 7,110688
+Number Of Moves: 0
+
+Date: 09/04/2025 15:22:38
+Scene Name: LVL_PATH_02_LA
+Time Completed: 2,770589
+Number Of Moves: 0
+
+Date: 09/04/2025 15:23:04
+Scene Name: LVL_PATH_02_LA
+Time Completed: 14,44265
+Number Of Moves: 0
+
+Date: 09/04/2025 15:24:43
+Scene Name: LVL_PATH_01_LA
+Time Completed: 3,909673
+Number Of Moves: 0
+
+Date: 09/04/2025 15:26:07
+Scene Name: LVL_NAR03_LA
+Time Completed: 16,50836
+Number Of Moves: 0
+
+Date: 09/04/2025 15:28:02
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 25,07837
+Number Of Moves: 2
+
+Date: 09/04/2025 15:38:01
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 4,827779
+Number Of Moves: 0
+
+Date: 09/04/2025 15:39:46
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 10,67205
+Number Of Moves: 0
+
+Date: 09/04/2025 15:40:38
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 6,726336
+Number Of Moves: 0
+
+Date: 09/04/2025 15:41:48
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 17,43869
+Number Of Moves: 0
+
+Date: 09/04/2025 15:42:37
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 8,190739
+Number Of Moves: 0
+
+Date: 09/04/2025 15:42:55
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 12,18986
+Number Of Moves: 0
+
+Date: 09/04/2025 15:47:56
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 4,310256
+Number Of Moves: 0
+
+Date: 09/04/2025 15:48:13
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 6,703763
+Number Of Moves: 0
+
+Date: 09/04/2025 15:48:37
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 6,480093
+Number Of Moves: 0
+
+Date: 09/04/2025 15:48:57
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 4,952295
+Number Of Moves: 0
+
+Date: 09/04/2025 15:50:24
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 3,311782
+Number Of Moves: 0
+
+Date: 09/04/2025 15:50:33
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 3,070949
+Number Of Moves: 0
+
+Date: 09/04/2025 15:50:46
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 6,490761
+Number Of Moves: 0
+
+Date: 09/04/2025 15:51:16
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 5,436309
+Number Of Moves: 0
+
+Date: 09/04/2025 15:51:37
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 10,85013
+Number Of Moves: 0
+
+Date: 09/04/2025 15:51:45
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 5,79871
+Number Of Moves: 0
+
+Date: 09/04/2025 15:52:14
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 11,82705
+Number Of Moves: 0
+

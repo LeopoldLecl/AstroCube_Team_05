@@ -1,0 +1,292 @@
+PlaythoughDataLog
+
+Date: 09/04/2025 17:28:12
+Scene Name: LVL_NAR03_LA
+Time Completed: 0,8640617
+Number Of Moves: 0
+
+Date: 09/04/2025 17:29:19
+Scene Name: LVL_NAR02_LA
+Time Completed: 1,322567
+Number Of Moves: 0
+
+Date: 09/04/2025 17:30:39
+Scene Name: LVL_NAR01_LA
+Time Completed: 3,61509
+Number Of Moves: 0
+
+Date: 09/04/2025 17:33:12
+Scene Name: LVL_NAR01_LA
+Time Completed: 2,601117
+Number Of Moves: 0
+
+Date: 09/04/2025 17:33:23
+Scene Name: LVL_NAR01_LA
+Time Completed: 4,065462
+Number Of Moves: 0
+
+Date: 09/04/2025 17:33:54
+Scene Name: LVL_NAR01_LA
+Time Completed: 22,49979
+Number Of Moves: 0
+
+Date: 09/04/2025 17:34:24
+Scene Name: LVL_NAR01_LA
+Time Completed: 5,272074
+Number Of Moves: 0
+
+Date: 09/04/2025 17:34:49
+Scene Name: LVL_NAR02_LA
+Time Completed: 4,704638
+Number Of Moves: 0
+
+Date: 09/04/2025 17:36:55
+Scene Name: LVL_NAR01_LA
+Time Completed: 4,145357
+Number Of Moves: 0
+
+Date: 10/04/2025 10:50:43
+Scene Name: LVL_NAR03_LA
+Time Completed: 14,85273
+Number Of Moves: 0
+
+Date: 10/04/2025 10:58:50
+Scene Name: LVL_NAR03_LA
+Time Completed: 4,600506
+Number Of Moves: 0
+
+Date: 10/04/2025 10:59:34
+Scene Name: LVL_NAR03_LA
+Time Completed: 12,19571
+Number Of Moves: 0
+
+Date: 10/04/2025 11:00:04
+Scene Name: LVL_NAR03_LA
+Time Completed: 26,80217
+Number Of Moves: 0
+
+Date: 10/04/2025 11:06:04
+Scene Name: LVL_NAR03_LA
+Time Completed: 14,74623
+Number Of Moves: 0
+
+Date: 10/04/2025 11:07:58
+Scene Name: LVL_NAR03_LA
+Time Completed: 15,19156
+Number Of Moves: 0
+
+Date: 10/04/2025 11:12:04
+Scene Name: LVL_NAR03_LA
+Time Completed: 18,12308
+Number Of Moves: 0
+
+Date: 10/04/2025 11:20:41
+Scene Name: LVL_NAR03_LA
+Time Completed: 14,93216
+Number Of Moves: 0
+
+Date: 10/04/2025 11:21:00
+Scene Name: LVL_NAR03_LA
+Time Completed: 12,62623
+Number Of Moves: 0
+
+Date: 10/04/2025 11:21:17
+Scene Name: LVL_NAR03_LA
+Time Completed: 11,87505
+Number Of Moves: 0
+
+Date: 10/04/2025 11:22:25
+Scene Name: LVL_NAR03_LA
+Time Completed: 12,43437
+Number Of Moves: 0
+
+Date: 10/04/2025 11:23:53
+Scene Name: LVL_NAR03_LA
+Time Completed: 28,85008
+Number Of Moves: 0
+
+Date: 10/04/2025 11:24:32
+Scene Name: LVL_NAR03_LA
+Time Completed: 11,32081
+Number Of Moves: 0
+
+Date: 10/04/2025 11:25:03
+Scene Name: LVL_NAR03_LA
+Time Completed: 16,70534
+Number Of Moves: 0
+
+Date: 10/04/2025 11:27:59
+Scene Name: LVL_NAR03_LA
+Time Completed: 11,9215
+Number Of Moves: 0
+
+Date: 10/04/2025 11:29:22
+Scene Name: LVL_NAR03_LA
+Time Completed: 4,849333
+Number Of Moves: 0
+
+Date: 10/04/2025 11:31:45
+Scene Name: LVL_NAR03_LA
+Time Completed: 4,34965
+Number Of Moves: 0
+
+Date: 10/04/2025 11:33:37
+Scene Name: LVL_NAR03_LA
+Time Completed: 9,204631
+Number Of Moves: 0
+
+Date: 10/04/2025 11:34:02
+Scene Name: LVL_NAR03_LA
+Time Completed: 7,543411
+Number Of Moves: 0
+
+Date: 10/04/2025 11:34:25
+Scene Name: LVL_NAR03_LA
+Time Completed: 4,892321
+Number Of Moves: 0
+
+Date: 10/04/2025 11:34:38
+Scene Name: LVL_NAR03_LA
+Time Completed: 3,986743
+Number Of Moves: 0
+
+Date: 10/04/2025 11:34:56
+Scene Name: LVL_NAR03_LA
+Time Completed: 7,820584
+Number Of Moves: 0
+
+Date: 10/04/2025 11:55:23
+Scene Name: LVL_NAR03_LA
+Time Completed: 4,847199
+Number Of Moves: 0
+
+Date: 10/04/2025 11:55:32
+Scene Name: LVL_NAR03_LA
+Time Completed: 5,78793
+Number Of Moves: 0
+
+Date: 10/04/2025 11:58:31
+Scene Name: LVL_NAR03_LA
+Time Completed: 3,136645
+Number Of Moves: 0
+
+Date: 10/04/2025 11:58:56
+Scene Name: LVL_NAR03_LA
+Time Completed: 10,68419
+Number Of Moves: 0
+
+Date: 10/04/2025 12:00:49
+Scene Name: LVL_NAR03_LA
+Time Completed: 9,026542
+Number Of Moves: 0
+
+Date: 10/04/2025 12:02:25
+Scene Name: LVL_NAR03_LA
+Time Completed: 8,657955
+Number Of Moves: 0
+
+Date: 10/04/2025 12:05:04
+Scene Name: LVL_NAR03_LA
+Time Completed: 14,27872
+Number Of Moves: 0
+
+Date: 10/04/2025 12:06:00
+Scene Name: LVL_NAR03_LA
+Time Completed: 6,839499
+Number Of Moves: 0
+
+Date: 10/04/2025 12:07:33
+Scene Name: LVL_NAR03_LA
+Time Completed: 6,86542
+Number Of Moves: 0
+
+Date: 10/04/2025 12:08:34
+Scene Name: LVL_NAR03_LA
+Time Completed: 14,01939
+Number Of Moves: 0
+
+Date: 10/04/2025 12:09:36
+Scene Name: LVL_NAR03_LA
+Time Completed: 55,21434
+Number Of Moves: 0
+
+Date: 10/04/2025 12:10:06
+Scene Name: LVL_NAR03_LA
+Time Completed: 8,800243
+Number Of Moves: 0
+
+Date: 10/04/2025 14:27:27
+Scene Name: LVL_NAR03_LA
+Time Completed: 8,806385
+Number Of Moves: 0
+
+Date: 10/04/2025 14:31:59
+Scene Name: LVL_PATH01bis_LA
+Time Completed: 4,082968
+Number Of Moves: 0
+
+Date: 10/04/2025 14:35:18
+Scene Name: LVL_NAR03_LA
+Time Completed: 8,162527
+Number Of Moves: 0
+
+Date: 10/04/2025 14:35:47
+Scene Name: LVL_NAR03_LA
+Time Completed: 16,05563
+Number Of Moves: 0
+
+Date: 10/04/2025 14:44:57
+Scene Name: LVL_NAR03_LA
+Time Completed: 29,9804
+Number Of Moves: 0
+
+Date: 10/04/2025 15:15:36
+Scene Name: LVL_NAR03_LA
+Time Completed: 59,11515
+Number Of Moves: 0
+
+Date: 10/04/2025 15:30:32
+Scene Name: LVL_NAR03_LA
+Time Completed: 46,92033
+Number Of Moves: 0
+
+Date: 10/04/2025 16:26:26
+Scene Name: LVL_NAR03_LA
+Time Completed: 39,72704
+Number Of Moves: 0
+
+Date: 10/04/2025 16:28:05
+Scene Name: LVL_NAR03_LA
+Time Completed: 33,95145
+Number Of Moves: 0
+
+Date: 10/04/2025 16:29:36
+Scene Name: LVL_NAR03_LA
+Time Completed: 32,54756
+Number Of Moves: 0
+
+Date: 10/04/2025 16:31:54
+Scene Name: LVL_NAR03_LA
+Time Completed: 34,38815
+Number Of Moves: 0
+
+Date: 10/04/2025 16:33:23
+Scene Name: LVL_NAR03_LA
+Time Completed: 34,35862
+Number Of Moves: 0
+
+Date: 10/04/2025 16:37:31
+Scene Name: LVL_NAR03_LA
+Time Completed: 12,10512
+Number Of Moves: 0
+
+Date: 10/04/2025 16:38:07
+Scene Name: LVL_NAR03_LA
+Time Completed: 7,428699
+Number Of Moves: 0
+
+Date: 10/04/2025 16:38:24
+Scene Name: LVL_NAR03_LA
+Time Completed: 7,989727
+Number Of Moves: 0
+

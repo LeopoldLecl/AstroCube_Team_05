@@ -1,5 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6406755206383599456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b243a9939705f434fb491ca6e7ccc04c, type: 3}
+  m_Name: Axis Child Object Selection
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  Settings:
+    SelectionMaterial: {fileID: 2100000, guid: efc4be7d32d7d6e4db2ad46d2e3a94c0, type: 2}
+    SelectionRenderingLayerMask: 1024
+    passEvent: 500
 --- !u!114 &-5925261178125771349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17,6 +34,43 @@ MonoBehaviour:
     SelectionMaterial: {fileID: 2100000, guid: 4506b58582bf8af4a8cadcf07aa3e4b6, type: 2}
     SelectionRenderingLayerMask: 256
     passEvent: 500
+--- !u!114 &-4000414138130686999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b243a9939705f434fb491ca6e7ccc04c, type: 3}
+  m_Name: Lock Object Selection
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  Settings:
+    SelectionMaterial: {fileID: 2100000, guid: 9d8ef93166198ca48addfab2e3b6363d, type: 2}
+    SelectionRenderingLayerMask: 2048
+    passEvent: 500
+--- !u!114 &-3766393947927224770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d613f08f173d4dd895bb07b3230baa9, type: 3}
+  m_Name: Distort
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 0
+  passMaterial: {fileID: 2100000, guid: 2cdc44759058bfc41beae3ac3a6717e3, type: 2}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
 --- !u!114 &-1878332245247344467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,6 +106,23 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 3302065f671a8450b82c9ddf07426f3a, type: 3}
   - {fileID: 2800000, guid: 56a77a3e8d64f47b6afe9e3c95cb57d5, type: 3}
   m_Shader: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}
+--- !u!114 &-1470760496215308841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b243a9939705f434fb491ca6e7ccc04c, type: 3}
+  m_Name: Cube Child Object Selection
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  Settings:
+    SelectionMaterial: {fileID: 2100000, guid: 7f2e66eedc506da44bcfce503cbd757e, type: 2}
+    SelectionRenderingLayerMask: 512
+    passEvent: 500
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,7 +144,11 @@ MonoBehaviour:
   - {fileID: -5925261178125771349}
   - {fileID: 7783406826304031758}
   - {fileID: 655985460136757421}
-  m_RendererFeatureMap: adc0de57c6d2eee5ab9d66145a3ec5ad0ecc33304537046cadc845e94c871a09
+  - {fileID: -3766393947927224770}
+  - {fileID: -6406755206383599456}
+  - {fileID: -1470760496215308841}
+  - {fileID: -4000414138130686999}
+  m_RendererFeatureMap: adc0de57c6d2eee5ab9d66145a3ec5ad0ecc33304537046cadc845e94c871a093ede9dd9a814bbcba0009f9015a216a7d7c568011fcf96ebe91b455689ac7bc8
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}

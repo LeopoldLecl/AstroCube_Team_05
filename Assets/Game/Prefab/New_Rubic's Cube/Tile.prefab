@@ -540,7 +540,7 @@ GameObject:
   - component: {fileID: 29424334409306816}
   m_Layer: 7
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -681,7 +681,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <IsOccupied>k__BackingField: 0
-  rd: {fileID: 29424334409306816}
 --- !u!54 &2393625584299102741
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.ProBuilder;
 using UnityEngine.UIElements;
 
 public class RubicsCube : MonoBehaviour
@@ -11,6 +12,7 @@ public class RubicsCube : MonoBehaviour
 
     [SerializeField] private GameObject[] _tilesPerFaces = new GameObject[6 * 9];
     [SerializeField] private Transform[] _foldoutTransforms = new Transform[6];
+    [SerializeField] private static List<Vector3> _positionsSaves = new();
 
 
     public static GameObject[] Selection {  get => _selection; set => _selection = value; }
@@ -20,6 +22,7 @@ public class RubicsCube : MonoBehaviour
     private static EIsolationMode _isolationMode = EIsolationMode.TILE;
 
     public static UnityAction OnReset;
+
 
     public void Reset()
     {
@@ -121,7 +124,7 @@ public class RubicsCube : MonoBehaviour
         }
     }
 
-#endregion
+    #endregion
 
     private void OnDestroy()
     {

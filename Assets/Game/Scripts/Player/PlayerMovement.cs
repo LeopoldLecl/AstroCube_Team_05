@@ -1,5 +1,6 @@
 using AK.Wwise;
 using UnityEngine;
+using UnityEngine.InputSystem.XR;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,9 +10,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Transform _floorCheck;
     [SerializeField] LayerMask _floorLayer;
 
-    [Header("Movement")]
-    [SerializeField] float _speed = 12f;
-    [SerializeField] float _gravity = -9.81f;
     bool _hasGravity = true;
 
     [Header("Jump")]
@@ -65,11 +63,15 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 newCamPos;
 
+    Vector3 _externallyAppliedMovement = Vector3.zero;
+
     public float defaultSpeed { get; private set; }
 
 
     private float _timerBeforeNextStep = 0;
     public float _timerTNextStep = 1;
+
+    
 
 
     void Start()
@@ -83,7 +85,6 @@ public class PlayerMovement : MonoBehaviour
 
         defaultSpeed = _gameSettings.PlayerMoveSpeed;
         _currentMoveSpeed = defaultSpeed;
-
     }
 
     // Update is called once per frame
@@ -97,19 +98,22 @@ public class PlayerMovement : MonoBehaviour
         if (_canCrouch) _crouchInput = Input.GetKey(KeyCode.LeftShift);
         */
 
-        // check player state
-        _isGrounded = Physics.CheckSphere(_floorCheck.position, _floorDistance, _floorLayer);
+        //check player state
+       _isGrounded = Physics.CheckSphere(_floorCheck.position, _floorDistance, _floorLayer);
 
-        // apply gravity 
+        //apply gravity
         if (_hasGravity)
         {
             _gravityDirection = transform.up;
-            _verticalVelocity += _gravityDirection * _gravity * Time.deltaTime;
+            _verticalVelocity += _gravityDirection * _gameSettings.Gravity * Time.deltaTime;
             if (_isGrounded)
             {
                 _verticalVelocity = Vector3.zero;
             }
         }
+
+        //_gravityDirection = transform.up;
+        //_verticalVelocity = _gravityDirection * _gameSettings.Gravity * Time.deltaTime;
 
         // movePlayer (walking around)
         if (_isSlipping) _pastHorizontalVelocity = _horizontalVelocity;
@@ -154,14 +158,22 @@ public class PlayerMovement : MonoBehaviour
         // no clip
         _horizontalVelocity += transform.up * _yInput;
 
-        // apply calculated
-        _controller.Move(_horizontalVelocity *
-                         (_crouchInput ? _currentMoveSpeed : _currentMoveSpeed / _gameSettings.CrouchSpeed) * Time.deltaTime);
-        _controller.Move(_verticalVelocity * Time.deltaTime);
-
+        // apply calculated Movement
+        if (_hasGravity)
+        {
+            _controller.Move(_horizontalVelocity *
+                             (_crouchInput ? _currentMoveSpeed : _currentMoveSpeed / _gameSettings.CrouchSpeed) * Time.deltaTime
+                             + _externallyAppliedMovement);
+            _controller.Move(_verticalVelocity * Time.deltaTime);
+        } 
+        else // no clip
+        {
+            _controller.Move(_horizontalVelocity *
+                             (_currentMoveSpeed/10) * Time.deltaTime
+                             + _externallyAppliedMovement);
+        }
         _ApplyCameraHeight(newCamPos.y);
         ExecuteFootStep();
-        ;
     }
 
     void ExecuteFootStep()
@@ -201,7 +213,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void SetSpeed(float newSpeed)
     {
-        _currentMoveSpeed = newSpeed;
+        _currentMoveSpeed = newSpeed * Time.deltaTime;
     }
 
     public void SetSpeedToDefault()
@@ -274,5 +286,10 @@ public class PlayerMovement : MonoBehaviour
     public void ActionVerticalMovement(float direction)
     {
         _yInput = direction;
+    }
+
+    public void SetExternallyAppliedMovement(Vector3 directon, float speed = 1)
+    {
+        _externallyAppliedMovement = directon * speed;
     }
 }

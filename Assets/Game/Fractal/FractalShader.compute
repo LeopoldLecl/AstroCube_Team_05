@@ -375,9 +375,10 @@ void CSMain(uint3 groupID : SV_GroupID, uint3 groupThreadID : SV_GroupThreadID, 
         rayDst += dst;
     }
 
-    //float rim = marchSteps / darkness;
+    float rim = marchSteps / darkness;
     //Destination[id.xy] = lerp(result, float4(result.rgb, 1), blackAndWhite) * rim;
-    Destination[id.xy] = result;
+    Destination[id.xy] = lerp(float4(0, 0, 0, 0), result, blackAndWhite * rim);
+    //Destination[id.xy] = result;
     
     //Destination[id.xy] = lerp(result, float4(result.rgb, 1), blackAndWhite);
     //Destination[id.xy] = result;
